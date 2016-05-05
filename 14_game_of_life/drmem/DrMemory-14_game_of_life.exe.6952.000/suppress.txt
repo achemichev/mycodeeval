@@ -1,0 +1,26 @@
+# File for suppressing errors found in pid 6952: "14_game_of_life.exe"
+
+# Suppression for Error #1
+REACHABLE LEAK
+name=Error #1 (update to meaningful name)
+drmemorylib.dll!replace_malloc
+msvcrt.dll!strcpy_s
+msvcrt.dll!wprintf
+msvcrt.dll!puts
+14_game_of_life.exe!grid_output
+14_game_of_life.exe!thisproject_entry
+14_game_of_life.exe!scan_to_eof
+14_game_of_life.exe!main
+
+## Mod+offs-style suppression for Error #1:
+REACHABLE LEAK
+name=Error #1 (update to meaningful name)
+<drmemorylib.dll+0x33d90>
+<msvcrt.dll+0xf5d3>
+<msvcrt.dll+0x25f26>
+<msvcrt.dll+0x78e20>
+<14_game_of_life.exe+0x1525>
+<14_game_of_life.exe+0x17ab>
+<14_game_of_life.exe+0x185e>
+<14_game_of_life.exe+0x1980>
+

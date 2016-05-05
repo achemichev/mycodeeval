@@ -1,0 +1,107 @@
+Dr. Memory version 1.9.0 build 4 built on Oct  2 2015 13:13:14
+Dr. Memory errors that are likely to be false positives, for pid 7492: "00_c_readbuf.exe"
+These errors matched the blacklist 'C:\Windows*.d??' for 4 frames.
+Run with -lib_blacklist_frames 0 to treat these as regular errors.
+If these are all false positives and your focus is unaddressable errors, consider running with -light to skip all uninitialized reads and leaks for higher performance.
+
+Potential Error #1: REACHABLE LEAK 48 direct bytes 0x00970558-0x00970588 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap               [d:\drmemory_package\common\alloc_replace.c:3680]
+# 1 KERNELBASE.dll!CheckTokenMembership  +0xb8c    (0x74e4f2c2 <KERNELBASE.dll+0x1f2c2>)
+# 2 KERNELBASE.dll!InternalLcidToName    +0xb51    (0x74e50221 <KERNELBASE.dll+0x20221>)
+# 3 KERNELBASE.dll!GetCalendar           +0x623    (0x74e50945 <KERNELBASE.dll+0x20945>)
+# 4 KERNELBASE.dll!GetNamedLocaleHashNode+0x55     (0x74e50af3 <KERNELBASE.dll+0x20af3>)
+# 5 KERNELBASE.dll!OpenRegKey            +0xa2d    (0x74e64941 <KERNELBASE.dll+0x34941>)
+# 6 KERNELBASE.dll!OpenRegKey            +0xc44    (0x74e64b58 <KERNELBASE.dll+0x34b58>)
+# 7 KERNELBASE.dll!GetUserDefaultLCID    +0x4      (0x74e5381e <KERNELBASE.dll+0x2381e>)
+# 8 msvcrt.dll!__get_qualified_locale
+# 9 msvcrt.dll!_expandlocale
+#10 msvcrt.dll!_expandlocale
+#11 msvcrt.dll!_expandlocale
+
+Potential Error #2: REACHABLE LEAK 32 direct bytes 0x00971ce8-0x00971d08 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap                    [d:\drmemory_package\common\alloc_replace.c:3680]
+# 1 ntdll.dll!RtlRunOnceBeginInitialize       +0x8d     (0x77768129 <ntdll.dll+0x38129>)
+# 2 KERNELBASE.dll!InitializeCriticalSectionEx+0x14     (0x74e40d16 <KERNELBASE.dll+0x10d16>)
+# 3 msvcrt.dll!__crtInitCritSecAndSpinCount
+# 4 msvcrt.dll!_alloc_osfhnd
+# 5 msvcrt.dll!_mktemp_s 
+# 6 msvcrt.dll!_sopen_helper
+# 7 msvcrt.dll!_sopen_s  
+# 8 msvcrt.dll!_openfile 
+# 9 msvcrt.dll!_fsopen   
+#10 msvcrt.dll!fopen     
+#11 main                                       [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:117]
+
+Potential Error #3: HANDLE LEAK: KERNEL handle 0x00000074 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey      
+# 1 KERNELBASE.dll!OpenRegKey                +0x133    (0x74e64047 <KERNELBASE.dll+0x34047>)
+# 2 KERNELBASE.dll!CheckTokenMembership      +0xacb    (0x74e4f201 <KERNELBASE.dll+0x1f201>)
+# 3 KERNELBASE.dll!IsValidLocale             +0x142    (0x74e543b8 <KERNELBASE.dll+0x243b8>)
+# 4 msvcrt.dll!__get_qualified_locale
+# 5 msvcrt.dll!_expandlocale
+# 6 msvcrt.dll!_expandlocale
+# 7 msvcrt.dll!_expandlocale
+# 8 msvcrt.dll!setlocale 
+# 9 __mingw_dirname                           [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#10 glob_match                                [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#11 __mingw_glob                              [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#12 _setargv                                  [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#13 __mingw_CRTStartup
+#14 mainCRTStartup  
+#15 ntdll.dll!RtlInitializeExceptionChain    +0x62     (0x77769882 <ntdll.dll+0x39882>)
+#16 ntdll.dll!RtlInitializeExceptionChain    +0x35     (0x77769855 <ntdll.dll+0x39855>)
+Note: @0:00:00.577 in thread 4084
+
+Potential Error #4: HANDLE LEAK: KERNEL handle 0x00000078 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey      
+# 1 KERNELBASE.dll!OpenRegKey                +0x133    (0x74e64047 <KERNELBASE.dll+0x34047>)
+# 2 KERNELBASE.dll!FindNLSString             +0x2b9    (0x74e531a2 <KERNELBASE.dll+0x231a2>)
+# 3 KERNELBASE.dll!IsValidLocale             +0x14f    (0x74e543c5 <KERNELBASE.dll+0x243c5>)
+# 4 msvcrt.dll!__get_qualified_locale
+# 5 msvcrt.dll!_expandlocale
+# 6 msvcrt.dll!_expandlocale
+# 7 msvcrt.dll!_expandlocale
+# 8 msvcrt.dll!setlocale 
+# 9 __mingw_dirname                           [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#10 glob_match                                [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#11 __mingw_glob                              [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#12 _setargv                                  [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#13 __mingw_CRTStartup
+#14 mainCRTStartup  
+#15 ntdll.dll!RtlInitializeExceptionChain    +0x62     (0x77769882 <ntdll.dll+0x39882>)
+#16 ntdll.dll!RtlInitializeExceptionChain    +0x35     (0x77769855 <ntdll.dll+0x39855>)
+Note: @0:00:00.609 in thread 4084
+
+Potential Error #5: HANDLE LEAK: KERNEL handle 0x00000080 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey      
+# 1 KERNELBASE.dll!OpenRegKey                +0x133    (0x74e64047 <KERNELBASE.dll+0x34047>)
+# 2 KERNELBASE.dll!FindNLSString             +0x258    (0x74e53141 <KERNELBASE.dll+0x23141>)
+# 3 KERNELBASE.dll!IsValidLocale             +0x135    (0x74e543ab <KERNELBASE.dll+0x243ab>)
+# 4 msvcrt.dll!__get_qualified_locale
+# 5 msvcrt.dll!_expandlocale
+# 6 msvcrt.dll!_expandlocale
+# 7 msvcrt.dll!_expandlocale
+# 8 msvcrt.dll!setlocale 
+# 9 __mingw_dirname                           [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#10 glob_match                                [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#11 __mingw_glob                              [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#12 _setargv                                  [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:138]
+#13 __mingw_CRTStartup
+#14 mainCRTStartup  
+#15 ntdll.dll!RtlInitializeExceptionChain    +0x62     (0x77769882 <ntdll.dll+0x39882>)
+#16 ntdll.dll!RtlInitializeExceptionChain    +0x35     (0x77769855 <ntdll.dll+0x39855>)
+Note: @0:00:00.609 in thread 4084
+
+DUPLICATE POTENTIAL ERROR COUNTS:
+
+NO POTENTIAL ERRORS FOUND:
+      0 unique,     0 total potential unaddressable access(es)
+      0 unique,     0 total potential uninitialized access(es)
+      0 unique,     0 total potential invalid heap argument(s)
+      0 unique,     0 total potential GDI usage error(s)
+      3 unique,     3 total potential handle leak(s)
+      0 unique,     0 total potential warning(s)
+      0 unique,     0 total,      0 byte(s) of potential leak(s)
+      0 unique,     0 total,      0 byte(s) of potential possible leak(s)
+      2 unique,     2 total,     80 byte(s) of potential still-reachable allocation(s)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\00_c_readbuf\drmem\DrMemory-00_c_readbuf.exe.7492.000\potential_errors.txt

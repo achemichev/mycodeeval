@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\Dr. Memory\bin\drmemory.exe" -show_reachable -logdir c:\Users\achemichev\Dropbox\Var\Codeeval\08_c_meet_comb_sort\drmem -- C:\Users\achemichev\Dropbox\Var\Codeeval\08_c_meet_comb_sort\bin\08_c_meet_comb_sort.exe test_input.txt

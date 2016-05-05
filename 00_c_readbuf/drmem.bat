@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\Dr. Memory\bin\drmemory.exe" -show_reachable -logdir c:\Users\achemichev\Dropbox\Var\Codeeval\00_c_readbuf\drmem -- C:\Users\achemichev\Dropbox\Var\Codeeval\00_c_readbuf\bin\00_c_readbuf.exe test_input.txt

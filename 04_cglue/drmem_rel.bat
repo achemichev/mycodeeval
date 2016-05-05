@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\Dr. Memory\bin\drmemory.exe" -show_reachable -logdir c:\Users\achemichev\Dropbox\Var\Codeeval\cglue\drmem -- C:\Users\achemichev\Dropbox\Var\Codeeval\cglue\RelWithDebInfo\cglue.exe test_input.txt

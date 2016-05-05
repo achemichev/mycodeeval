@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\Dr. Memory\bin\drmemory.exe" -show_reachable -logdir c:\Users\achemichev\Dropbox\Var\Codeeval\14_game_of_life\drmem -- C:\Users\achemichev\Dropbox\Var\Codeeval\14_game_of_life\bin\14_game_of_life.exe test_input.txt

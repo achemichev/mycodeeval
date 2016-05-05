@@ -1,0 +1,2698 @@
+Dr. Memory version 1.9.0 build 4 built on Oct  2 2015 13:13:14
+Dr. Memory results for pid 6840: "cglue.exe"
+Application cmdline: "C:\Users\achemichev\Dropbox\Var\Codeeval\cglue\RelWithDebInfo\cglue.exe test_input.txt"
+Recorded 116 suppression(s) from default c:\Program Files (x86)\Dr. Memory\bin\suppress-default.txt
+
+Error #1: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e03dd9-0x00e03ddc 3 byte(s) within 0x00e03dd8-0x00e03ddc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.499 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e03dd0-0x00e03dd9
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #2: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e044ea-0x00e044ec 2 byte(s) within 0x00e044e8-0x00e044ec
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.503 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e044e0-0x00e044ea
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #3: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e04bfb-0x00e04bfc 1 byte(s) within 0x00e04bf8-0x00e04bfc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.508 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e04bf0-0x00e04bfb
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #4: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e05a1d-0x00e05a20 3 byte(s) within 0x00e05a1c-0x00e05a20
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.512 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e05a10-0x00e05a1d
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #5: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0612e-0x00e06130 2 byte(s) within 0x00e0612c-0x00e06130
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.514 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e06120-0x00e0612e
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #6: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0683f-0x00e06840 1 byte(s) within 0x00e0683c-0x00e06840
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.517 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e06830-0x00e0683f
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #7: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e07661-0x00e07664 3 byte(s) within 0x00e07660-0x00e07664
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.519 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e07650-0x00e07661
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #8: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e07d7a-0x00e07d7c 2 byte(s) within 0x00e07d78-0x00e07d7c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.521 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e07d68-0x00e07d7a
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #9: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e08493-0x00e08494 1 byte(s) within 0x00e08490-0x00e08494
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.523 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e08480-0x00e08493
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #10: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e092c5-0x00e092c8 3 byte(s) within 0x00e092c4-0x00e092c8
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.526 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e092b0-0x00e092c5
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #11: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e099de-0x00e099e0 2 byte(s) within 0x00e099dc-0x00e099e0
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.528 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e099c8-0x00e099de
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #12: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0a0f7-0x00e0a0f8 1 byte(s) within 0x00e0a0f4-0x00e0a0f8
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.530 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0a0e0-0x00e0a0f7
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #13: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0af29-0x00e0af2c 3 byte(s) within 0x00e0af28-0x00e0af2c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.532 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0af10-0x00e0af29
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #14: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0b64a-0x00e0b64c 2 byte(s) within 0x00e0b648-0x00e0b64c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.535 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0b630-0x00e0b64a
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #15: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0bd6b-0x00e0bd6c 1 byte(s) within 0x00e0bd68-0x00e0bd6c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.538 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0bd50-0x00e0bd6b
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #16: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0cbad-0x00e0cbb0 3 byte(s) within 0x00e0cbac-0x00e0cbb0
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.540 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0cb90-0x00e0cbad
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #17: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0d2ce-0x00e0d2d0 2 byte(s) within 0x00e0d2cc-0x00e0d2d0
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.543 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0d2b0-0x00e0d2ce
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #18: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0d9ef-0x00e0d9f0 1 byte(s) within 0x00e0d9ec-0x00e0d9f0
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.546 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0d9d0-0x00e0d9ef
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #19: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0e831-0x00e0e834 3 byte(s) within 0x00e0e830-0x00e0e834
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.549 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0e810-0x00e0e831
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #20: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0ef5a-0x00e0ef5c 2 byte(s) within 0x00e0ef58-0x00e0ef5c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.552 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0ef38-0x00e0ef5a
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #21: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e0f683-0x00e0f684 1 byte(s) within 0x00e0f680-0x00e0f684
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.556 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e0f660-0x00e0f683
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #22: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e104d5-0x00e104d8 3 byte(s) within 0x00e104d4-0x00e104d8
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.559 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e104b0-0x00e104d5
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #23: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e10bfe-0x00e10c00 2 byte(s) within 0x00e10bfc-0x00e10c00
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.562 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e10bd8-0x00e10bfe
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #24: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e11327-0x00e11328 1 byte(s) within 0x00e11324-0x00e11328
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.565 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e11300-0x00e11327
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #25: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e12179-0x00e1217c 3 byte(s) within 0x00e12178-0x00e1217c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.568 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e12150-0x00e12179
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #26: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e128aa-0x00e128ac 2 byte(s) within 0x00e128a8-0x00e128ac
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.572 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e12880-0x00e128aa
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #27: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e12fdb-0x00e12fdc 1 byte(s) within 0x00e12fd8-0x00e12fdc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.575 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e12fb0-0x00e12fdb
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #28: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e13e3d-0x00e13e40 3 byte(s) within 0x00e13e3c-0x00e13e40
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.578 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e13e10-0x00e13e3d
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #29: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1456e-0x00e14570 2 byte(s) within 0x00e1456c-0x00e14570
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.582 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e14540-0x00e1456e
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #30: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e14c9f-0x00e14ca0 1 byte(s) within 0x00e14c9c-0x00e14ca0
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.585 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e14c70-0x00e14c9f
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #31: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e15b01-0x00e15b04 3 byte(s) within 0x00e15b00-0x00e15b04
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.589 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e15ad0-0x00e15b01
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #32: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1623a-0x00e1623c 2 byte(s) within 0x00e16238-0x00e1623c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.593 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e16208-0x00e1623a
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #33: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e16973-0x00e16974 1 byte(s) within 0x00e16970-0x00e16974
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.597 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e16940-0x00e16973
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #34: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e177e5-0x00e177e8 3 byte(s) within 0x00e177e4-0x00e177e8
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.601 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e177b0-0x00e177e5
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #35: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e17f1e-0x00e17f20 2 byte(s) within 0x00e17f1c-0x00e17f20
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.605 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e17ee8-0x00e17f1e
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #36: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e18657-0x00e18658 1 byte(s) within 0x00e18654-0x00e18658
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.609 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e18620-0x00e18657
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #37: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e194c9-0x00e194cc 3 byte(s) within 0x00e194c8-0x00e194cc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.614 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e19490-0x00e194c9
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #38: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e19c0a-0x00e19c0c 2 byte(s) within 0x00e19c08-0x00e19c0c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.619 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e19bd0-0x00e19c0a
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #39: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1a34b-0x00e1a34c 1 byte(s) within 0x00e1a348-0x00e1a34c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.623 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1a310-0x00e1a34b
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #40: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1b1cd-0x00e1b1d0 3 byte(s) within 0x00e1b1cc-0x00e1b1d0
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.629 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1b190-0x00e1b1cd
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #41: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1b90e-0x00e1b910 2 byte(s) within 0x00e1b90c-0x00e1b910
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.634 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1b8d0-0x00e1b90e
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #42: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1c04f-0x00e1c050 1 byte(s) within 0x00e1c04c-0x00e1c050
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.639 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1c010-0x00e1c04f
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #43: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1ced1-0x00e1ced4 3 byte(s) within 0x00e1ced0-0x00e1ced4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.644 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1ce90-0x00e1ced1
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #44: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1d61a-0x00e1d61c 2 byte(s) within 0x00e1d618-0x00e1d61c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.650 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1d5d8-0x00e1d61a
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #45: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1dd63-0x00e1dd64 1 byte(s) within 0x00e1dd60-0x00e1dd64
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.657 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1dd20-0x00e1dd63
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #46: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1ebf5-0x00e1ebf8 3 byte(s) within 0x00e1ebf4-0x00e1ebf8
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.662 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1ebb0-0x00e1ebf5
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #47: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1f33e-0x00e1f340 2 byte(s) within 0x00e1f33c-0x00e1f340
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.668 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1f2f8-0x00e1f33e
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #48: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e1fa87-0x00e1fa88 1 byte(s) within 0x00e1fa84-0x00e1fa88
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.674 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e1fa40-0x00e1fa87
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #49: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e20919-0x00e2091c 3 byte(s) within 0x00e20918-0x00e2091c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.679 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e208d0-0x00e20919
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #50: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e2106a-0x00e2106c 2 byte(s) within 0x00e21068-0x00e2106c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.685 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e21020-0x00e2106a
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #51: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e217bb-0x00e217bc 1 byte(s) within 0x00e217b8-0x00e217bc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.690 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e21770-0x00e217bb
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #52: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e2265d-0x00e22660 3 byte(s) within 0x00e2265c-0x00e22660
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.695 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e22610-0x00e2265d
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #53: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e22dae-0x00e22db0 2 byte(s) within 0x00e22dac-0x00e22db0
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.701 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e22d60-0x00e22dae
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #54: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e234ff-0x00e23500 1 byte(s) within 0x00e234fc-0x00e23500
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.706 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e234b0-0x00e234ff
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #55: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e243a1-0x00e243a4 3 byte(s) within 0x00e243a0-0x00e243a4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.712 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e24350-0x00e243a1
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #56: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e24afa-0x00e24afc 2 byte(s) within 0x00e24af8-0x00e24afc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.718 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e24aa8-0x00e24afa
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #57: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e25253-0x00e25254 1 byte(s) within 0x00e25250-0x00e25254
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.723 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e25200-0x00e25253
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #58: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e26105-0x00e26108 3 byte(s) within 0x00e26104-0x00e26108
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+Note: @0:00:00.729 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e260b0-0x00e26105
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #59: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e2685e-0x00e26860 2 byte(s) within 0x00e2685c-0x00e26860
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+Note: @0:00:00.734 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e26808-0x00e2685e
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #60: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e26fb7-0x00e26fb8 1 byte(s) within 0x00e26fb4-0x00e26fb8
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:139]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+Note: @0:00:00.740 in thread 5628
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e26f60-0x00e26fb7
+Note: instruction: mov    (%ecx) -> %edx
+
+Error #61: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00fca22a-0x00fca22c 2 byte(s) within 0x00fca228-0x00fca22c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+Note: @0:00:00.817 in thread 5628
+Note: next higher malloc: 0x00fca250-0x00fca452
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00fca028-0x00fca22a
+Note: instruction: mov    (%esi) -> %edx
+
+Error #62: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00fc9792-0x00fc9794 2 byte(s) within 0x00fc9790-0x00fc9794
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+Note: @0:00:00.824 in thread 5628
+Note: next higher malloc: 0x00fc97b8-0x00fc99ba
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00fc9590-0x00fc9792
+Note: instruction: mov    (%esi) -> %edx
+
+Error #63: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00fc8d02-0x00fc8d04 2 byte(s) within 0x00fc8d00-0x00fc8d04
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+Note: @0:00:00.830 in thread 5628
+Note: next higher malloc: 0x00fc8d28-0x00fc8f2a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00fc8b00-0x00fc8d02
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #64: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00fc8272-0x00fc8274 2 byte(s) within 0x00fc8270-0x00fc8274
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+Note: @0:00:00.837 in thread 5628
+Note: next higher malloc: 0x00fc8298-0x00fc849a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00fc8070-0x00fc8272
+Note: instruction: mov    (%esi) -> %edx
+
+Error #65: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ec450a-0x00ec450c 2 byte(s) within 0x00ec4508-0x00ec450c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.877 in thread 5628
+Note: next higher malloc: 0x00ec4530-0x00ec4732
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ec4308-0x00ec450a
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #66: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ec3c22-0x00ec3c24 2 byte(s) within 0x00ec3c20-0x00ec3c24
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.884 in thread 5628
+Note: next higher malloc: 0x00ec3c48-0x00ec3e4a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ec3a20-0x00ec3c22
+Note: instruction: mov    (%esi) -> %edx
+
+Error #67: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ec333a-0x00ec333c 2 byte(s) within 0x00ec3338-0x00ec333c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.891 in thread 5628
+Note: next higher malloc: 0x00ec3360-0x00ec3562
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ec3138-0x00ec333a
+Note: instruction: mov    (%esi) -> %edx
+
+Error #68: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ec2a52-0x00ec2a54 2 byte(s) within 0x00ec2a50-0x00ec2a54
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#19 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.896 in thread 5628
+Note: next higher malloc: 0x00ec2a78-0x00ec2c7a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ec2850-0x00ec2a52
+Note: instruction: mov    (%esi) -> %edx
+
+Error #69: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ec2172-0x00ec2174 2 byte(s) within 0x00ec2170-0x00ec2174
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.902 in thread 5628
+Note: next higher malloc: 0x00ec2198-0x00ec239a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ec1f70-0x00ec2172
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #70: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ec1892-0x00ec1894 2 byte(s) within 0x00ec1890-0x00ec1894
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.908 in thread 5628
+Note: next higher malloc: 0x00ec18b8-0x00ec1aba
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ec1690-0x00ec1892
+Note: instruction: mov    (%esi) -> %edx
+
+Error #71: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ec0fb2-0x00ec0fb4 2 byte(s) within 0x00ec0fb0-0x00ec0fb4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.913 in thread 5628
+Note: next higher malloc: 0x00ec0fd8-0x00ec11da
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ec0db0-0x00ec0fb2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #72: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ec06d2-0x00ec06d4 2 byte(s) within 0x00ec06d0-0x00ec06d4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#18 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.919 in thread 5628
+Note: next higher malloc: 0x00ec06f8-0x00ec08fa
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ec04d0-0x00ec06d2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #73: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebfdf2-0x00ebfdf4 2 byte(s) within 0x00ebfdf0-0x00ebfdf4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.926 in thread 5628
+Note: next higher malloc: 0x00ebfe18-0x00ec001a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebfbf0-0x00ebfdf2
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #74: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebf512-0x00ebf514 2 byte(s) within 0x00ebf510-0x00ebf514
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.931 in thread 5628
+Note: next higher malloc: 0x00ebf538-0x00ebf73a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebf310-0x00ebf512
+Note: instruction: mov    (%esi) -> %edx
+
+Error #75: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebec32-0x00ebec34 2 byte(s) within 0x00ebec30-0x00ebec34
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.938 in thread 5628
+Note: next higher malloc: 0x00ebec58-0x00ebee5a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebea30-0x00ebec32
+Note: instruction: mov    (%esi) -> %edx
+
+Error #76: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebe352-0x00ebe354 2 byte(s) within 0x00ebe350-0x00ebe354
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#17 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.943 in thread 5628
+Note: next higher malloc: 0x00ebe378-0x00ebe57a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebe150-0x00ebe352
+Note: instruction: mov    (%esi) -> %edx
+
+Error #77: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebda7a-0x00ebda7c 2 byte(s) within 0x00ebda78-0x00ebda7c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.948 in thread 5628
+Note: next higher malloc: 0x00ebdaa0-0x00ebdca2
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebd878-0x00ebda7a
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #78: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebd1a2-0x00ebd1a4 2 byte(s) within 0x00ebd1a0-0x00ebd1a4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.954 in thread 5628
+Note: next higher malloc: 0x00ebd1c8-0x00ebd3ca
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebcfa0-0x00ebd1a2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #79: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebc8ca-0x00ebc8cc 2 byte(s) within 0x00ebc8c8-0x00ebc8cc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.959 in thread 5628
+Note: next higher malloc: 0x00ebc8f0-0x00ebcaf2
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebc6c8-0x00ebc8ca
+Note: instruction: mov    (%esi) -> %edx
+
+Error #80: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebbff2-0x00ebbff4 2 byte(s) within 0x00ebbff0-0x00ebbff4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#16 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.964 in thread 5628
+Note: next higher malloc: 0x00ebc018-0x00ebc21a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebbdf0-0x00ebbff2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #81: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebb71a-0x00ebb71c 2 byte(s) within 0x00ebb718-0x00ebb71c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.969 in thread 5628
+Note: next higher malloc: 0x00ebb740-0x00ebb942
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebb518-0x00ebb71a
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #82: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ebae42-0x00ebae44 2 byte(s) within 0x00ebae40-0x00ebae44
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.974 in thread 5628
+Note: next higher malloc: 0x00ebae68-0x00ebb06a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ebac40-0x00ebae42
+Note: instruction: mov    (%esi) -> %edx
+
+Error #83: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eba56a-0x00eba56c 2 byte(s) within 0x00eba568-0x00eba56c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.978 in thread 5628
+Note: next higher malloc: 0x00eba590-0x00eba792
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eba368-0x00eba56a
+Note: instruction: mov    (%esi) -> %edx
+
+Error #84: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb9c92-0x00eb9c94 2 byte(s) within 0x00eb9c90-0x00eb9c94
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#15 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.983 in thread 5628
+Note: next higher malloc: 0x00eb9cb8-0x00eb9eba
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb9a90-0x00eb9c92
+Note: instruction: mov    (%esi) -> %edx
+
+Error #85: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb93c2-0x00eb93c4 2 byte(s) within 0x00eb93c0-0x00eb93c4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.988 in thread 5628
+Note: next higher malloc: 0x00eb93e8-0x00eb95ea
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb91c0-0x00eb93c2
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #86: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb8af2-0x00eb8af4 2 byte(s) within 0x00eb8af0-0x00eb8af4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.993 in thread 5628
+Note: next higher malloc: 0x00eb8b18-0x00eb8d1a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb88f0-0x00eb8af2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #87: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb8222-0x00eb8224 2 byte(s) within 0x00eb8220-0x00eb8224
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:00.997 in thread 5628
+Note: next higher malloc: 0x00eb8248-0x00eb844a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb8020-0x00eb8222
+Note: instruction: mov    (%esi) -> %edx
+
+Error #88: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb7952-0x00eb7954 2 byte(s) within 0x00eb7950-0x00eb7954
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#14 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.002 in thread 5628
+Note: next higher malloc: 0x00eb7978-0x00eb7b7a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb7750-0x00eb7952
+Note: instruction: mov    (%esi) -> %edx
+
+Error #89: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb7082-0x00eb7084 2 byte(s) within 0x00eb7080-0x00eb7084
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.006 in thread 5628
+Note: next higher malloc: 0x00eb70a8-0x00eb72aa
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb6e80-0x00eb7082
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #90: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb67b2-0x00eb67b4 2 byte(s) within 0x00eb67b0-0x00eb67b4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.010 in thread 5628
+Note: next higher malloc: 0x00eb67d8-0x00eb69da
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb65b0-0x00eb67b2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #91: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb5ee2-0x00eb5ee4 2 byte(s) within 0x00eb5ee0-0x00eb5ee4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.015 in thread 5628
+Note: next higher malloc: 0x00eb5f08-0x00eb610a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb5ce0-0x00eb5ee2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #92: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb5612-0x00eb5614 2 byte(s) within 0x00eb5610-0x00eb5614
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#13 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.019 in thread 5628
+Note: next higher malloc: 0x00eb5638-0x00eb583a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb5410-0x00eb5612
+Note: instruction: mov    (%esi) -> %edx
+
+Error #93: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb4d4a-0x00eb4d4c 2 byte(s) within 0x00eb4d48-0x00eb4d4c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.024 in thread 5628
+Note: next higher malloc: 0x00eb4d70-0x00eb4f72
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb4b48-0x00eb4d4a
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #94: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb4482-0x00eb4484 2 byte(s) within 0x00eb4480-0x00eb4484
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.028 in thread 5628
+Note: next higher malloc: 0x00eb44a8-0x00eb46aa
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb4280-0x00eb4482
+Note: instruction: mov    (%esi) -> %edx
+
+Error #95: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb3bba-0x00eb3bbc 2 byte(s) within 0x00eb3bb8-0x00eb3bbc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.032 in thread 5628
+Note: next higher malloc: 0x00eb3be0-0x00eb3de2
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb39b8-0x00eb3bba
+Note: instruction: mov    (%esi) -> %edx
+
+Error #96: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb32f2-0x00eb32f4 2 byte(s) within 0x00eb32f0-0x00eb32f4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#12 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.037 in thread 5628
+Note: next higher malloc: 0x00eb3318-0x00eb351a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb30f0-0x00eb32f2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #97: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb2a2a-0x00eb2a2c 2 byte(s) within 0x00eb2a28-0x00eb2a2c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.041 in thread 5628
+Note: next higher malloc: 0x00eb2a50-0x00eb2c52
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb2828-0x00eb2a2a
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #98: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb2162-0x00eb2164 2 byte(s) within 0x00eb2160-0x00eb2164
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.046 in thread 5628
+Note: next higher malloc: 0x00eb2188-0x00eb238a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb1f60-0x00eb2162
+Note: instruction: mov    (%esi) -> %edx
+
+Error #99: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb189a-0x00eb189c 2 byte(s) within 0x00eb1898-0x00eb189c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.049 in thread 5628
+Note: next higher malloc: 0x00eb18c0-0x00eb1ac2
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb1698-0x00eb189a
+Note: instruction: mov    (%esi) -> %edx
+
+Error #100: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb0fd2-0x00eb0fd4 2 byte(s) within 0x00eb0fd0-0x00eb0fd4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#11 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.054 in thread 5628
+Note: next higher malloc: 0x00eb0ff8-0x00eb11fa
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb0dd0-0x00eb0fd2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #101: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eb0712-0x00eb0714 2 byte(s) within 0x00eb0710-0x00eb0714
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.058 in thread 5628
+Note: next higher malloc: 0x00eb0738-0x00eb093a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eb0510-0x00eb0712
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #102: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eafe52-0x00eafe54 2 byte(s) within 0x00eafe50-0x00eafe54
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.061 in thread 5628
+Note: next higher malloc: 0x00eafe78-0x00eb007a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eafc50-0x00eafe52
+Note: instruction: mov    (%esi) -> %edx
+
+Error #103: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eaf592-0x00eaf594 2 byte(s) within 0x00eaf590-0x00eaf594
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.065 in thread 5628
+Note: next higher malloc: 0x00eaf5b8-0x00eaf7ba
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eaf390-0x00eaf592
+Note: instruction: mov    (%esi) -> %edx
+
+Error #104: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eaecd2-0x00eaecd4 2 byte(s) within 0x00eaecd0-0x00eaecd4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+#10 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.069 in thread 5628
+Note: next higher malloc: 0x00eaecf8-0x00eaeefa
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eaead0-0x00eaecd2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #105: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eae412-0x00eae414 2 byte(s) within 0x00eae410-0x00eae414
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.073 in thread 5628
+Note: next higher malloc: 0x00eae438-0x00eae63a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eae210-0x00eae412
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #106: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eadb52-0x00eadb54 2 byte(s) within 0x00eadb50-0x00eadb54
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.076 in thread 5628
+Note: next higher malloc: 0x00eadb78-0x00eadd7a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ead950-0x00eadb52
+Note: instruction: mov    (%esi) -> %edx
+
+Error #107: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ead292-0x00ead294 2 byte(s) within 0x00ead290-0x00ead294
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.080 in thread 5628
+Note: next higher malloc: 0x00ead2b8-0x00ead4ba
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ead090-0x00ead292
+Note: instruction: mov    (%esi) -> %edx
+
+Error #108: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eac9d2-0x00eac9d4 2 byte(s) within 0x00eac9d0-0x00eac9d4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 9 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.085 in thread 5628
+Note: next higher malloc: 0x00eac9f8-0x00eacbfa
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eac7d0-0x00eac9d2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #109: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eac11a-0x00eac11c 2 byte(s) within 0x00eac118-0x00eac11c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.088 in thread 5628
+Note: next higher malloc: 0x00eac140-0x00eac342
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eabf18-0x00eac11a
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #110: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eab862-0x00eab864 2 byte(s) within 0x00eab860-0x00eab864
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.092 in thread 5628
+Note: next higher malloc: 0x00eab888-0x00eaba8a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eab660-0x00eab862
+Note: instruction: mov    (%esi) -> %edx
+
+Error #111: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eaafaa-0x00eaafac 2 byte(s) within 0x00eaafa8-0x00eaafac
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.095 in thread 5628
+Note: next higher malloc: 0x00eaafd0-0x00eab1d2
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eaada8-0x00eaafaa
+Note: instruction: mov    (%esi) -> %edx
+
+Error #112: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00eaa6f2-0x00eaa6f4 2 byte(s) within 0x00eaa6f0-0x00eaa6f4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 8 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.099 in thread 5628
+Note: next higher malloc: 0x00eaa718-0x00eaa91a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00eaa4f0-0x00eaa6f2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #113: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea9e3a-0x00ea9e3c 2 byte(s) within 0x00ea9e38-0x00ea9e3c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.103 in thread 5628
+Note: next higher malloc: 0x00ea9e60-0x00eaa062
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea9c38-0x00ea9e3a
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #114: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea9582-0x00ea9584 2 byte(s) within 0x00ea9580-0x00ea9584
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.106 in thread 5628
+Note: next higher malloc: 0x00ea95a8-0x00ea97aa
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea9380-0x00ea9582
+Note: instruction: mov    (%esi) -> %edx
+
+Error #115: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea8cca-0x00ea8ccc 2 byte(s) within 0x00ea8cc8-0x00ea8ccc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.110 in thread 5628
+Note: next higher malloc: 0x00ea8cf0-0x00ea8ef2
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea8ac8-0x00ea8cca
+Note: instruction: mov    (%esi) -> %edx
+
+Error #116: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea8412-0x00ea8414 2 byte(s) within 0x00ea8410-0x00ea8414
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 7 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.113 in thread 5628
+Note: next higher malloc: 0x00ea8438-0x00ea863a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea8210-0x00ea8412
+Note: instruction: mov    (%esi) -> %edx
+
+Error #117: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea7b62-0x00ea7b64 2 byte(s) within 0x00ea7b60-0x00ea7b64
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.117 in thread 5628
+Note: next higher malloc: 0x00ea7b88-0x00ea7d8a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea7960-0x00ea7b62
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #118: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea72b2-0x00ea72b4 2 byte(s) within 0x00ea72b0-0x00ea72b4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.120 in thread 5628
+Note: next higher malloc: 0x00ea72d8-0x00ea74da
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea70b0-0x00ea72b2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #119: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea6a02-0x00ea6a04 2 byte(s) within 0x00ea6a00-0x00ea6a04
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.123 in thread 5628
+Note: next higher malloc: 0x00ea6a28-0x00ea6c2a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea6800-0x00ea6a02
+Note: instruction: mov    (%esi) -> %edx
+
+Error #120: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea6152-0x00ea6154 2 byte(s) within 0x00ea6150-0x00ea6154
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 6 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.126 in thread 5628
+Note: next higher malloc: 0x00ea6178-0x00ea637a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea5f50-0x00ea6152
+Note: instruction: mov    (%esi) -> %edx
+
+Error #121: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea58a2-0x00ea58a4 2 byte(s) within 0x00ea58a0-0x00ea58a4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.129 in thread 5628
+Note: next higher malloc: 0x00ea58c8-0x00ea5aca
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea56a0-0x00ea58a2
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #122: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea4ff2-0x00ea4ff4 2 byte(s) within 0x00ea4ff0-0x00ea4ff4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.131 in thread 5628
+Note: next higher malloc: 0x00ea5018-0x00ea521a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea4df0-0x00ea4ff2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #123: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea4742-0x00ea4744 2 byte(s) within 0x00ea4740-0x00ea4744
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.134 in thread 5628
+Note: next higher malloc: 0x00ea4768-0x00ea496a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea4540-0x00ea4742
+Note: instruction: mov    (%esi) -> %edx
+
+Error #124: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea3e92-0x00ea3e94 2 byte(s) within 0x00ea3e90-0x00ea3e94
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 5 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.137 in thread 5628
+Note: next higher malloc: 0x00ea3eb8-0x00ea40ba
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea3c90-0x00ea3e92
+Note: instruction: mov    (%esi) -> %edx
+
+Error #125: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea35ea-0x00ea35ec 2 byte(s) within 0x00ea35e8-0x00ea35ec
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.140 in thread 5628
+Note: next higher malloc: 0x00ea3610-0x00ea3812
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea33e8-0x00ea35ea
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #126: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea2d42-0x00ea2d44 2 byte(s) within 0x00ea2d40-0x00ea2d44
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.142 in thread 5628
+Note: next higher malloc: 0x00ea2d68-0x00ea2f6a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea2b40-0x00ea2d42
+Note: instruction: mov    (%esi) -> %edx
+
+Error #127: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea249a-0x00ea249c 2 byte(s) within 0x00ea2498-0x00ea249c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.144 in thread 5628
+Note: next higher malloc: 0x00ea24c0-0x00ea26c2
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea2298-0x00ea249a
+Note: instruction: mov    (%esi) -> %edx
+
+Error #128: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea1bf2-0x00ea1bf4 2 byte(s) within 0x00ea1bf0-0x00ea1bf4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 4 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.147 in thread 5628
+Note: next higher malloc: 0x00ea1c18-0x00ea1e1a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea19f0-0x00ea1bf2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #129: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea134a-0x00ea134c 2 byte(s) within 0x00ea1348-0x00ea134c
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.151 in thread 5628
+Note: next higher malloc: 0x00ea1370-0x00ea1572
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea1148-0x00ea134a
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #130: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea0aa2-0x00ea0aa4 2 byte(s) within 0x00ea0aa0-0x00ea0aa4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.154 in thread 5628
+Note: next higher malloc: 0x00ea0ac8-0x00ea0cca
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00ea08a0-0x00ea0aa2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #131: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00ea01fa-0x00ea01fc 2 byte(s) within 0x00ea01f8-0x00ea01fc
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.156 in thread 5628
+Note: next higher malloc: 0x00ea0220-0x00ea0422
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9fff8-0x00ea01fa
+Note: instruction: mov    (%esi) -> %edx
+
+Error #132: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e9f952-0x00e9f954 2 byte(s) within 0x00e9f950-0x00e9f954
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 3 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.158 in thread 5628
+Note: next higher malloc: 0x00e9f978-0x00e9fb7a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9f750-0x00e9f952
+Note: instruction: mov    (%esi) -> %edx
+
+Error #133: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e9f0b2-0x00e9f0b4 2 byte(s) within 0x00e9f0b0-0x00e9f0b4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.161 in thread 5628
+Note: next higher malloc: 0x00e9f0d8-0x00e9f2da
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9eeb0-0x00e9f0b2
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #134: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e9e812-0x00e9e814 2 byte(s) within 0x00e9e810-0x00e9e814
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.163 in thread 5628
+Note: next higher malloc: 0x00e9e838-0x00e9ea3a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9e610-0x00e9e812
+Note: instruction: mov    (%esi) -> %edx
+
+Error #135: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e9df72-0x00e9df74 2 byte(s) within 0x00e9df70-0x00e9df74
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.165 in thread 5628
+Note: next higher malloc: 0x00e9df98-0x00e9e19a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9dd70-0x00e9df72
+Note: instruction: mov    (%esi) -> %edx
+
+Error #136: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e9d6d2-0x00e9d6d4 2 byte(s) within 0x00e9d6d0-0x00e9d6d4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:164]
+# 2 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.167 in thread 5628
+Note: next higher malloc: 0x00e9d6f8-0x00e9d8fa
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9d4d0-0x00e9d6d2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #137: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e9ce32-0x00e9ce34 2 byte(s) within 0x00e9ce30-0x00e9ce34
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.169 in thread 5628
+Note: next higher malloc: 0x00e9ce58-0x00e9d05a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9cc30-0x00e9ce32
+Note: instruction: mov    (%ebx) -> %edx
+
+Error #138: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e9c592-0x00e9c594 2 byte(s) within 0x00e9c590-0x00e9c594
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.171 in thread 5628
+Note: next higher malloc: 0x00e9c5b8-0x00e9c7ba
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9c390-0x00e9c592
+Note: instruction: mov    (%esi) -> %edx
+
+Error #139: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e9bcf2-0x00e9bcf4 2 byte(s) within 0x00e9bcf0-0x00e9bcf4
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.173 in thread 5628
+Note: next higher malloc: 0x00e9bd18-0x00e9bf1a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9baf0-0x00e9bcf2
+Note: instruction: mov    (%esi) -> %edx
+
+Error #140: UNADDRESSABLE ACCESS beyond heap bounds: reading 0x00e9b452-0x00e9b454 2 byte(s) within 0x00e9b450-0x00e9b454
+# 0 glue_recur               [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:166]
+# 1 main                     [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:201]
+Note: @0:00:01.175 in thread 5628
+Note: next higher malloc: 0x00e9b478-0x00e9b67a
+Note: refers to 0 byte(s) beyond last valid byte in prior malloc
+Note: prev lower malloc:  0x00e9b250-0x00e9b452
+Note: instruction: mov    (%esi) -> %edx
+
+Error #141: REACHABLE LEAK 4096 direct bytes 0x00e98bb0-0x00e99bb0 + 0 indirect bytes
+# 0 replace_malloc               [d:\drmemory_package\common\alloc_replace.c:2537]
+# 1 msvcrt.dll!strcpy_s         +0x5e     (0x7526f5d3 <msvcrt.dll+0xf5d3>)
+# 2 msvcrt.dll!wprintf          +0x142    (0x75285f26 <msvcrt.dll+0x25f26>)
+# 3 msvcrt.dll!puts             +0xf3     (0x752d8e20 <msvcrt.dll+0x78e20>)
+# 4 main                         [C:/Users/achemichev/Dropbox/Var/Codeeval/cglue/main.c:202]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   1:     20
+	Error #   2:     20
+	Error #   3:     20
+	Error #   4:     20
+	Error #   5:     20
+	Error #   6:     20
+	Error #   7:     20
+	Error #   8:     20
+	Error #   9:     20
+	Error #  10:     20
+	Error #  11:     20
+	Error #  12:     20
+	Error #  13:     20
+	Error #  14:     20
+	Error #  15:     20
+	Error #  16:     20
+	Error #  17:     20
+	Error #  18:     20
+	Error #  19:     20
+	Error #  20:     20
+	Error #  21:     20
+	Error #  22:     20
+	Error #  23:     20
+	Error #  24:     20
+	Error #  25:     20
+	Error #  26:     20
+	Error #  27:     20
+	Error #  28:     20
+	Error #  29:     20
+	Error #  30:     20
+	Error #  31:     20
+	Error #  32:     20
+	Error #  33:     20
+	Error #  34:     20
+	Error #  35:     20
+	Error #  36:     20
+	Error #  37:     20
+	Error #  38:     20
+	Error #  39:     20
+	Error #  40:     20
+	Error #  41:     20
+	Error #  42:     20
+	Error #  43:     20
+	Error #  44:     20
+	Error #  45:     20
+	Error #  46:     20
+	Error #  47:     20
+	Error #  48:     20
+	Error #  49:     20
+	Error #  50:     20
+	Error #  51:     20
+	Error #  52:     20
+	Error #  53:     20
+	Error #  54:     20
+	Error #  55:     20
+	Error #  56:     20
+	Error #  57:     20
+	Error #  58:   1947
+	Error #  59:   1942
+	Error #  60:   1936
+	Error #  61:   1330
+	Error #  62:   1335
+	Error #  63:   1320
+	Error #  64:   1324
+	Error #  65:     15
+	Error #  66:     15
+	Error #  67:     15
+	Error #  68:     15
+	Error #  69:     15
+	Error #  70:     15
+	Error #  71:     15
+	Error #  72:     15
+	Error #  73:     15
+	Error #  74:     15
+	Error #  75:     15
+	Error #  76:     15
+	Error #  77:     15
+	Error #  78:     15
+	Error #  79:     15
+	Error #  80:     15
+	Error #  81:     15
+	Error #  82:     15
+	Error #  83:     15
+	Error #  84:     15
+	Error #  85:     15
+	Error #  86:     15
+	Error #  87:     15
+	Error #  88:     15
+	Error #  89:     15
+	Error #  90:     15
+	Error #  91:     15
+	Error #  92:     15
+	Error #  93:     15
+	Error #  94:     15
+	Error #  95:     15
+	Error #  96:     15
+	Error #  97:     15
+	Error #  98:     15
+	Error #  99:     15
+	Error # 100:     15
+	Error # 101:     15
+	Error # 102:     15
+	Error # 103:     15
+	Error # 104:     15
+	Error # 105:     15
+	Error # 106:     15
+	Error # 107:     15
+	Error # 108:     15
+	Error # 109:     15
+	Error # 110:     15
+	Error # 111:     15
+	Error # 112:     15
+	Error # 113:     15
+	Error # 114:     15
+	Error # 115:     15
+	Error # 116:     15
+	Error # 117:     15
+	Error # 118:     15
+	Error # 119:     15
+	Error # 120:     15
+	Error # 121:     15
+	Error # 122:     15
+	Error # 123:     15
+	Error # 124:     15
+	Error # 125:     15
+	Error # 126:     15
+	Error # 127:     15
+	Error # 128:     15
+	Error # 129:     15
+	Error # 130:     15
+	Error # 131:     15
+	Error # 132:     15
+	Error # 133:     15
+	Error # 134:     15
+	Error # 135:     15
+	Error # 136:     15
+	Error # 137:     15
+	Error # 138:     15
+	Error # 139:     15
+	Error # 140:     15
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+    140 unique, 13414 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+      1 unique,     1 total,   4096 byte(s) of still-reachable allocation(s)
+ERRORS IGNORED:
+      3 potential error(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\cglue\drmem\DrMemory-cglue.exe.6840.000\potential_errors.txt)
+      5 potential leak(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\cglue\drmem\DrMemory-cglue.exe.6840.000\potential_errors.txt)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\cglue\drmem\DrMemory-cglue.exe.6840.000\results.txt

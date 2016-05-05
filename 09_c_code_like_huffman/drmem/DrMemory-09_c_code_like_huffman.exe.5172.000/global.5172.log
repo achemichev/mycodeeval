@@ -1,0 +1,214 @@
+Dr. Memory version 1.9.0 build 4 built on Oct  2 2015 13:13:14
+start time: 3638988:24:41.521 == 12:24:41.521 02/19/2016
+Recorded 116 suppression(s) from default c:\Program Files (x86)\Dr. Memory\bin\suppress-default.txt
+new thread #0 id=5804
+
+module load event: "09_c_code_like_huffman.exe" 0x00400000-0x00416000 modid: 1 C:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\bin\09_c_code_like_huffman.exe
+
+module load event: "dynamorio.dll" 0x6d290000-0x6d3ea000 modid: 2 c:\Program Files (x86)\Dr. Memory\dynamorio\lib32\release\dynamorio.dll
+
+module load event: "drmemorylib.dll" 0x73800000-0x739fd000 modid: 3 c:\Program Files (x86)\Dr. Memory\bin\release\drmemorylib.dll
+
+module load event: "KERNELBASE.dll" 0x74e30000-0x74e77000 modid: 4 C:\Windows\syswow64\KERNELBASE.dll
+WARNING: unable to load symbols for C:\Windows\syswow64\KERNELBASE.dll
+
+module load event: "msvcrt.dll" 0x75260000-0x7530c000 modid: 5 C:\Windows\syswow64\msvcrt.dll
+WARNING: unable to load symbols for C:\Windows\syswow64\msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new == new[] => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+
+module load event: "KERNEL32.dll" 0x75ca0000-0x75db0000 modid: 6 C:\Windows\syswow64\kernel32.dll
+WARNING: unable to load symbols for C:\Windows\syswow64\kernel32.dll
+
+module load event: "ntdll.dll" 0x77730000-0x778b0000 modid: 7 C:\Windows\SysWOW64\ntdll.dll
+WARNING: unable to load symbols for C:\Windows\SysWOW64\ntdll.dll
+WARNING: unhandled system calls found
+
+Potential Error #1: REACHABLE LEAK 48 direct bytes 0x008d0558-0x008d0588 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap [d:\drmemory_package\common\alloc_replace.c:3680] (0x73832750 <drmemorylib.dll+0x32750>) modid:3
+# 1 KERNELBASE.dll!CheckTokenMembership (0x74e4f2c2 <KERNELBASE.dll+0x1f2c2>) modid:4
+# 2 KERNELBASE.dll!InternalLcidToName (0x74e50221 <KERNELBASE.dll+0x20221>) modid:4
+# 3 KERNELBASE.dll!GetCalendar    (0x74e50945 <KERNELBASE.dll+0x20945>) modid:4
+# 4 KERNELBASE.dll!GetNamedLocaleHashNode (0x74e50af3 <KERNELBASE.dll+0x20af3>) modid:4
+# 5 KERNELBASE.dll!OpenRegKey     (0x74e64941 <KERNELBASE.dll+0x34941>) modid:4
+# 6 KERNELBASE.dll!OpenRegKey     (0x74e64b58 <KERNELBASE.dll+0x34b58>) modid:4
+# 7 KERNELBASE.dll!GetUserDefaultLCID (0x74e5381e <KERNELBASE.dll+0x2381e>) modid:4
+# 8 msvcrt.dll!crtDbgFlag (0x75276b60 <msvcrt.dll+0x16b60>) modid:5
+# 9 msvcrt.dll!crtDbgFlag (0x75276a88 <msvcrt.dll+0x16a88>) modid:5
+#10 msvcrt.dll!crtDbgFlag (0x75275f77 <msvcrt.dll+0x15f77>) modid:5
+#11 msvcrt.dll!_wgetmainargs (0x75275255 <msvcrt.dll+0x15255>) modid:5
+	error end
+
+Potential Error #2: REACHABLE LEAK 32 direct bytes 0x008d1cd8-0x008d1cf8 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap [d:\drmemory_package\common\alloc_replace.c:3680] (0x73832750 <drmemorylib.dll+0x32750>) modid:3
+# 1 ntdll.dll!RtlRunOnceBeginInitialize (0x77768129 <ntdll.dll+0x38129>) modid:7
+# 2 KERNELBASE.dll!InitializeCriticalSectionEx (0x74e40d16 <KERNELBASE.dll+0x10d16>) modid:4
+# 3 msvcrt.dll!wcsnicmp_l (0x75272901 <msvcrt.dll+0x12901>) modid:5
+# 4 msvcrt.dll!open_osfhandle (0x75272b41 <msvcrt.dll+0x12b41>) modid:5
+# 5 msvcrt.dll!cexit      (0x75273885 <msvcrt.dll+0x13885>) modid:5
+# 6 msvcrt.dll!clearerr_s (0x7527a2e4 <msvcrt.dll+0x1a2e4>) modid:5
+# 7 msvcrt.dll!sopen_s    (0x7527a789 <msvcrt.dll+0x1a789>) modid:5
+# 8 msvcrt.dll!sopen_s    (0x7527a72b <msvcrt.dll+0x1a72b>) modid:5
+# 9 msvcrt.dll!remove     (0x7527a628 <msvcrt.dll+0x1a628>) modid:5
+#10 msvcrt.dll!fsopen     (0x7527a6c1 <msvcrt.dll+0x1a6c1>) modid:5
+#11 msvcrt.dll!fopen      (0x7527b2d6 <msvcrt.dll+0x1b2d6>) modid:5
+	error end
+
+Potential Error #3: REACHABLE LEAK 32 direct bytes 0x008d1d18-0x008d1d38 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap [d:\drmemory_package\common\alloc_replace.c:3680] (0x73832750 <drmemorylib.dll+0x32750>) modid:3
+# 1 ntdll.dll!RtlRunOnceBeginInitialize (0x77768129 <ntdll.dll+0x38129>) modid:7
+# 2 KERNELBASE.dll!InitializeCriticalSectionEx (0x74e40d16 <KERNELBASE.dll+0x10d16>) modid:4
+# 3 msvcrt.dll!wcsnicmp_l (0x75272901 <msvcrt.dll+0x12901>) modid:5
+# 4 msvcrt.dll!open_osfhandle (0x75272b91 <msvcrt.dll+0x12b91>) modid:5
+# 5 msvcrt.dll!clearerr_s (0x7527a2e4 <msvcrt.dll+0x1a2e4>) modid:5
+# 6 msvcrt.dll!sopen_s    (0x7527a789 <msvcrt.dll+0x1a789>) modid:5
+# 7 msvcrt.dll!sopen_s    (0x7527a72b <msvcrt.dll+0x1a72b>) modid:5
+# 8 msvcrt.dll!remove     (0x7527a628 <msvcrt.dll+0x1a628>) modid:5
+# 9 msvcrt.dll!fsopen     (0x7527a6c1 <msvcrt.dll+0x1a6c1>) modid:5
+#10 msvcrt.dll!fopen      (0x7527b2d6 <msvcrt.dll+0x1b2d6>) modid:5
+#11 main                       [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:16] (0x00401421 <09_c_code_like_huffman.exe+0x1421>) modid:1
+	error end
+
+Potential Error #4: REACHABLE LEAK 24 direct bytes 0x00cd1b30-0x00cd1b48 + 0 indirect bytes
+# 0 replace_malloc  [d:\drmemory_package\common\alloc_replace.c:2537] (0x73833d90 <drmemorylib.dll+0x33d90>) modid:3
+# 1 msvcrt.dll!strcpy_s   (0x7526f5d3 <msvcrt.dll+0xf5d3>) modid:5
+# 2 msvcrt.dll!open_osfhandle (0x75272b18 <msvcrt.dll+0x12b18>) modid:5
+# 3 msvcrt.dll!get_fmode  (0x75273c7d <msvcrt.dll+0x13c7d>) modid:5
+# 4 msvcrt.dll!fsopen     (0x7527a6a0 <msvcrt.dll+0x1a6a0>) modid:5
+# 5 msvcrt.dll!fopen      (0x7527b2d6 <msvcrt.dll+0x1b2d6>) modid:5
+# 6 main                       [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:16] (0x00401421 <09_c_code_like_huffman.exe+0x1421>) modid:1
+	error end
+
+Potential Error #5: REACHABLE LEAK 24 direct bytes 0x00cd1b68-0x00cd1b80 + 0 indirect bytes
+# 0 replace_malloc  [d:\drmemory_package\common\alloc_replace.c:2537] (0x73833d90 <drmemorylib.dll+0x33d90>) modid:3
+# 1 msvcrt.dll!strcpy_s   (0x7526f5d3 <msvcrt.dll+0xf5d3>) modid:5
+# 2 msvcrt.dll!open_osfhandle (0x75272b18 <msvcrt.dll+0x12b18>) modid:5
+# 3 msvcrt.dll!cexit      (0x75273885 <msvcrt.dll+0x13885>) modid:5
+# 4 msvcrt.dll!clearerr_s (0x7527a2e4 <msvcrt.dll+0x1a2e4>) modid:5
+# 5 msvcrt.dll!sopen_s    (0x7527a789 <msvcrt.dll+0x1a789>) modid:5
+# 6 msvcrt.dll!sopen_s    (0x7527a72b <msvcrt.dll+0x1a72b>) modid:5
+# 7 msvcrt.dll!remove     (0x7527a628 <msvcrt.dll+0x1a628>) modid:5
+# 8 msvcrt.dll!fsopen     (0x7527a6c1 <msvcrt.dll+0x1a6c1>) modid:5
+# 9 msvcrt.dll!fopen      (0x7527b2d6 <msvcrt.dll+0x1b2d6>) modid:5
+#10 main                       [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:16] (0x00401421 <09_c_code_like_huffman.exe+0x1421>) modid:1
+	error end
+
+Error #1: REACHABLE LEAK 4096 direct bytes 0x00cd2bc0-0x00cd3bc0 + 0 indirect bytes
+# 0 replace_malloc  [d:\drmemory_package\common\alloc_replace.c:2537] (0x73833d90 <drmemorylib.dll+0x33d90>) modid:3
+# 1 msvcrt.dll!strcpy_s   (0x7526f5d3 <msvcrt.dll+0xf5d3>) modid:5
+# 2 msvcrt.dll!wprintf    (0x75285f26 <msvcrt.dll+0x25f26>) modid:5
+# 3 msvcrt.dll!printf     (0x7527c5ef <msvcrt.dll+0x1c5ef>) modid:5
+# 4 huffman_entry              [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:157] (0x00401d10 <09_c_code_like_huffman.exe+0x1d10>) modid:1
+# 5 main                       [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:22] (0x00401467 <09_c_code_like_huffman.exe+0x1467>) modid:1
+	error end
+
+NEW THREAD: main thread 5804
+
+
+Potential Error #6: HANDLE LEAK: KERNEL handle 0x00000074 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey
+# 1 KERNELBASE.dll!OpenRegKey     (0x74e64047 <KERNELBASE.dll+0x34047>) modid:4
+# 2 KERNELBASE.dll!FindNLSString  (0x74e53141 <KERNELBASE.dll+0x23141>) modid:4
+# 3 KERNELBASE.dll!IsValidLocale  (0x74e543ab <KERNELBASE.dll+0x243ab>) modid:4
+# 4 msvcrt.dll!crtDbgFlag (0x75276bc6 <msvcrt.dll+0x16bc6>) modid:5
+# 5 msvcrt.dll!crtDbgFlag (0x75276a88 <msvcrt.dll+0x16a88>) modid:5
+# 6 msvcrt.dll!crtDbgFlag (0x75275f77 <msvcrt.dll+0x15f77>) modid:5
+# 7 msvcrt.dll!_wgetmainargs (0x75275255 <msvcrt.dll+0x15255>) modid:5
+# 8 msvcrt.dll!setlocale  (0x75275300 <msvcrt.dll+0x15300>) modid:5
+# 9 __mingw_dirname            [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x004037d4 <09_c_code_like_huffman.exe+0x37d4>) modid:1
+#10 glob_match                 [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x00403145 <09_c_code_like_huffman.exe+0x3145>) modid:1
+#11 __mingw_glob               [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x004036e4 <09_c_code_like_huffman.exe+0x36e4>) modid:1
+#12 _setargv                   [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x004021c7 <09_c_code_like_huffman.exe+0x21c7>) modid:1
+#13 __mingw_CRTStartup         (0x004011ca <09_c_code_like_huffman.exe+0x11ca>) modid:1
+#14 mainCRTStartup             (0x004012b5 <09_c_code_like_huffman.exe+0x12b5>) modid:1
+#15 ntdll.dll!RtlInitializeExceptionChain (0x77769882 <ntdll.dll+0x39882>) modid:7
+#16 ntdll.dll!RtlInitializeExceptionChain (0x77769855 <ntdll.dll+0x39855>) modid:7
+Note: @0:00:01.265 in thread 5804
+	error end
+
+Potential Error #7: HANDLE LEAK: KERNEL handle 0x00000078 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey
+# 1 KERNELBASE.dll!OpenRegKey     (0x74e64047 <KERNELBASE.dll+0x34047>) modid:4
+# 2 KERNELBASE.dll!CheckTokenMembership (0x74e4f201 <KERNELBASE.dll+0x1f201>) modid:4
+# 3 KERNELBASE.dll!IsValidLocale  (0x74e543b8 <KERNELBASE.dll+0x243b8>) modid:4
+# 4 msvcrt.dll!crtDbgFlag (0x75276bc6 <msvcrt.dll+0x16bc6>) modid:5
+# 5 msvcrt.dll!crtDbgFlag (0x75276a88 <msvcrt.dll+0x16a88>) modid:5
+# 6 msvcrt.dll!crtDbgFlag (0x75275f77 <msvcrt.dll+0x15f77>) modid:5
+# 7 msvcrt.dll!_wgetmainargs (0x75275255 <msvcrt.dll+0x15255>) modid:5
+# 8 msvcrt.dll!setlocale  (0x75275300 <msvcrt.dll+0x15300>) modid:5
+# 9 __mingw_dirname            [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x004037d4 <09_c_code_like_huffman.exe+0x37d4>) modid:1
+#10 glob_match                 [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x00403145 <09_c_code_like_huffman.exe+0x3145>) modid:1
+#11 __mingw_glob               [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x004036e4 <09_c_code_like_huffman.exe+0x36e4>) modid:1
+#12 _setargv                   [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x004021c7 <09_c_code_like_huffman.exe+0x21c7>) modid:1
+#13 __mingw_CRTStartup         (0x004011ca <09_c_code_like_huffman.exe+0x11ca>) modid:1
+#14 mainCRTStartup             (0x004012b5 <09_c_code_like_huffman.exe+0x12b5>) modid:1
+#15 ntdll.dll!RtlInitializeExceptionChain (0x77769882 <ntdll.dll+0x39882>) modid:7
+#16 ntdll.dll!RtlInitializeExceptionChain (0x77769855 <ntdll.dll+0x39855>) modid:7
+Note: @0:00:01.265 in thread 5804
+	error end
+
+Potential Error #8: HANDLE LEAK: KERNEL handle 0x00000080 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey
+# 1 KERNELBASE.dll!OpenRegKey     (0x74e64047 <KERNELBASE.dll+0x34047>) modid:4
+# 2 KERNELBASE.dll!FindNLSString  (0x74e531a2 <KERNELBASE.dll+0x231a2>) modid:4
+# 3 KERNELBASE.dll!IsValidLocale  (0x74e543c5 <KERNELBASE.dll+0x243c5>) modid:4
+# 4 msvcrt.dll!crtDbgFlag (0x75276bc6 <msvcrt.dll+0x16bc6>) modid:5
+# 5 msvcrt.dll!crtDbgFlag (0x75276a88 <msvcrt.dll+0x16a88>) modid:5
+# 6 msvcrt.dll!crtDbgFlag (0x75275f77 <msvcrt.dll+0x15f77>) modid:5
+# 7 msvcrt.dll!_wgetmainargs (0x75275255 <msvcrt.dll+0x15255>) modid:5
+# 8 msvcrt.dll!setlocale  (0x75275300 <msvcrt.dll+0x15300>) modid:5
+# 9 __mingw_dirname            [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x004037d4 <09_c_code_like_huffman.exe+0x37d4>) modid:1
+#10 glob_match                 [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x00403145 <09_c_code_like_huffman.exe+0x3145>) modid:1
+#11 __mingw_glob               [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x004036e4 <09_c_code_like_huffman.exe+0x36e4>) modid:1
+#12 _setargv                   [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186] (0x004021c7 <09_c_code_like_huffman.exe+0x21c7>) modid:1
+#13 __mingw_CRTStartup         (0x004011ca <09_c_code_like_huffman.exe+0x11ca>) modid:1
+#14 mainCRTStartup             (0x004012b5 <09_c_code_like_huffman.exe+0x12b5>) modid:1
+#15 ntdll.dll!RtlInitializeExceptionChain (0x77769882 <ntdll.dll+0x39882>) modid:7
+#16 ntdll.dll!RtlInitializeExceptionChain (0x77769855 <ntdll.dll+0x39855>) modid:7
+Note: @0:00:01.265 in thread 5804
+	error end
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+	     1x: default i#1324 mingw runtime
+	    14x: default i#960 CRT mismatch
+	     8x (leaked     380 bytes): default i#599 mingw un-freed alloc A
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+      1 unique,     1 total,   4096 byte(s) of still-reachable allocation(s)
+ERRORS IGNORED:
+      3 potential error(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.5172.000\potential_errors.txt)
+      5 potential leak(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.5172.000\potential_errors.txt)
+     68 ignored assumed-innocuous system leak(s)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.5172.000\results.txt
+
+DUPLICATE POTENTIAL ERROR COUNTS:
+
+POTENTIAL ERRORS FOUND:
+      0 unique,     0 total potential unaddressable access(es)
+      0 unique,     0 total potential uninitialized access(es)
+      0 unique,     0 total potential invalid heap argument(s)
+      0 unique,     0 total potential GDI usage error(s)
+      3 unique,     3 total potential handle leak(s)
+      0 unique,     0 total potential warning(s)
+      0 unique,     0 total,      0 byte(s) of potential leak(s)
+      0 unique,     0 total,      0 byte(s) of potential possible leak(s)
+      5 unique,     5 total,    160 byte(s) of potential still-reachable allocation(s)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.5172.000\potential_errors.txt
+Exiting @0:00:01.312 in thread 5804
+LOG END

@@ -1,0 +1,22 @@
+# File for suppressing errors found in pid 5172: "09_c_code_like_huffman.exe"
+
+# Suppression for Error #1
+REACHABLE LEAK
+name=Error #1 (update to meaningful name)
+drmemorylib.dll!replace_malloc
+msvcrt.dll!strcpy_s
+msvcrt.dll!wprintf
+msvcrt.dll!printf
+09_c_code_like_huffman.exe!huffman_entry
+09_c_code_like_huffman.exe!main
+
+## Mod+offs-style suppression for Error #1:
+REACHABLE LEAK
+name=Error #1 (update to meaningful name)
+<drmemorylib.dll+0x33d90>
+<msvcrt.dll+0xf5d3>
+<msvcrt.dll+0x25f26>
+<msvcrt.dll+0x1c5ef>
+<09_c_code_like_huffman.exe+0x1d10>
+<09_c_code_like_huffman.exe+0x1467>
+

@@ -1,0 +1,165 @@
+Dr. Memory version 1.9.0 build 4 built on Oct  2 2015 13:13:14
+start time: 3638792:03:04.345 == 08:03:04.345 02/11/2016
+Recorded 116 suppression(s) from default c:\Program Files (x86)\Dr. Memory\bin\suppress-default.txt
+new thread #0 id=7876
+
+module load event: "00_c_readbuf.exe" 0x00400000-0x00416000 modid: 1 C:\Users\achemichev\Dropbox\Var\Codeeval\00_c_readbuf\bin\00_c_readbuf.exe
+
+module load event: "dynamorio.dll" 0x51f80000-0x520da000 modid: 2 c:\Program Files (x86)\Dr. Memory\dynamorio\lib32\release\dynamorio.dll
+
+module load event: "drmemorylib.dll" 0x73800000-0x739fd000 modid: 3 c:\Program Files (x86)\Dr. Memory\bin\release\drmemorylib.dll
+
+module load event: "KERNELBASE.dll" 0x74e30000-0x74e77000 modid: 4 C:\Windows\syswow64\KERNELBASE.dll
+
+module load event: "msvcrt.dll" 0x75260000-0x7530c000 modid: 5 C:\Windows\syswow64\msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new == new[] => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+
+module load event: "KERNEL32.dll" 0x75ca0000-0x75db0000 modid: 6 C:\Windows\syswow64\kernel32.dll
+
+module load event: "ntdll.dll" 0x77730000-0x778b0000 modid: 7 C:\Windows\SysWOW64\ntdll.dll
+WARNING: unable to load symbols for C:\Windows\SysWOW64\ntdll.dll
+WARNING: unhandled system calls found
+WARNING: unable to load symbols for C:\Windows\syswow64\KERNELBASE.dll
+
+Potential Error #1: REACHABLE LEAK 48 direct bytes 0x007a0558-0x007a0588 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap [d:\drmemory_package\common\alloc_replace.c:3680] (0x73832750 <drmemorylib.dll+0x32750>) modid:3
+# 1 KERNELBASE.dll!CheckTokenMembership (0x74e4f2c2 <KERNELBASE.dll+0x1f2c2>) modid:4
+# 2 KERNELBASE.dll!InternalLcidToName (0x74e50221 <KERNELBASE.dll+0x20221>) modid:4
+# 3 KERNELBASE.dll!GetCalendar    (0x74e50945 <KERNELBASE.dll+0x20945>) modid:4
+# 4 KERNELBASE.dll!GetNamedLocaleHashNode (0x74e50af3 <KERNELBASE.dll+0x20af3>) modid:4
+# 5 KERNELBASE.dll!OpenRegKey     (0x74e64941 <KERNELBASE.dll+0x34941>) modid:4
+# 6 KERNELBASE.dll!OpenRegKey     (0x74e64b58 <KERNELBASE.dll+0x34b58>) modid:4
+# 7 KERNELBASE.dll!GetUserDefaultLCID (0x74e5381e <KERNELBASE.dll+0x2381e>) modid:4
+# 8 msvcrt.dll!__get_qualified_locale (0x75276b60 <msvcrt.dll+0x16b60>) modid:5
+# 9 msvcrt.dll!_expandlocale (0x75276a88 <msvcrt.dll+0x16a88>) modid:5
+#10 msvcrt.dll!_expandlocale (0x75275f77 <msvcrt.dll+0x15f77>) modid:5
+#11 msvcrt.dll!_expandlocale (0x75275255 <msvcrt.dll+0x15255>) modid:5
+	error end
+
+Potential Error #2: REACHABLE LEAK 32 direct bytes 0x007a1ce8-0x007a1d08 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap [d:\drmemory_package\common\alloc_replace.c:3680] (0x73832750 <drmemorylib.dll+0x32750>) modid:3
+# 1 ntdll.dll!RtlRunOnceBeginInitialize (0x77768129 <ntdll.dll+0x38129>) modid:7
+# 2 KERNELBASE.dll!InitializeCriticalSectionEx (0x74e40d16 <KERNELBASE.dll+0x10d16>) modid:4
+# 3 msvcrt.dll!__crtInitCritSecAndSpinCount (0x75272901 <msvcrt.dll+0x12901>) modid:5
+# 4 msvcrt.dll!_alloc_osfhnd (0x75272b91 <msvcrt.dll+0x12b91>) modid:5
+# 5 msvcrt.dll!_mktemp_s  (0x7527a2e4 <msvcrt.dll+0x1a2e4>) modid:5
+# 6 msvcrt.dll!_sopen_helper (0x7527a789 <msvcrt.dll+0x1a789>) modid:5
+# 7 msvcrt.dll!_sopen_s   (0x7527a72b <msvcrt.dll+0x1a72b>) modid:5
+# 8 msvcrt.dll!_openfile  (0x7527a628 <msvcrt.dll+0x1a628>) modid:5
+# 9 msvcrt.dll!_fsopen    (0x7527a6c1 <msvcrt.dll+0x1a6c1>) modid:5
+#10 msvcrt.dll!fopen      (0x7527b2d6 <msvcrt.dll+0x1b2d6>) modid:5
+#11 main             [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:97] (0x004015ca <00_c_readbuf.exe+0x15ca>) modid:1
+	error end
+
+NEW THREAD: main thread 7876
+
+
+Potential Error #3: HANDLE LEAK: KERNEL handle 0x00000074 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey
+# 1 KERNELBASE.dll!OpenRegKey     (0x74e64047 <KERNELBASE.dll+0x34047>) modid:4
+# 2 KERNELBASE.dll!CheckTokenMembership (0x74e4f201 <KERNELBASE.dll+0x1f201>) modid:4
+# 3 KERNELBASE.dll!IsValidLocale  (0x74e543b8 <KERNELBASE.dll+0x243b8>) modid:4
+# 4 msvcrt.dll!__get_qualified_locale (0x75276bc6 <msvcrt.dll+0x16bc6>) modid:5
+# 5 msvcrt.dll!_expandlocale (0x75276a88 <msvcrt.dll+0x16a88>) modid:5
+# 6 msvcrt.dll!_expandlocale (0x75275f77 <msvcrt.dll+0x15f77>) modid:5
+# 7 msvcrt.dll!_expandlocale (0x75275255 <msvcrt.dll+0x15255>) modid:5
+# 8 msvcrt.dll!setlocale  (0x75275300 <msvcrt.dll+0x15300>) modid:5
+# 9 __mingw_dirname  [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x00402ec4 <00_c_readbuf.exe+0x2ec4>) modid:1
+#10 glob_match       [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x00402835 <00_c_readbuf.exe+0x2835>) modid:1
+#11 __mingw_glob     [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x00402dd4 <00_c_readbuf.exe+0x2dd4>) modid:1
+#12 _setargv         [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x004018c7 <00_c_readbuf.exe+0x18c7>) modid:1
+#13 __mingw_CRTStartup (0x004011ca <00_c_readbuf.exe+0x11ca>) modid:1
+#14 mainCRTStartup   (0x004012b5 <00_c_readbuf.exe+0x12b5>) modid:1
+#15 ntdll.dll!RtlInitializeExceptionChain (0x77769882 <ntdll.dll+0x39882>) modid:7
+#16 ntdll.dll!RtlInitializeExceptionChain (0x77769855 <ntdll.dll+0x39855>) modid:7
+Note: @0:00:00.573 in thread 7876
+	error end
+
+Potential Error #4: HANDLE LEAK: KERNEL handle 0x00000078 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey
+# 1 KERNELBASE.dll!OpenRegKey     (0x74e64047 <KERNELBASE.dll+0x34047>) modid:4
+# 2 KERNELBASE.dll!FindNLSString  (0x74e531a2 <KERNELBASE.dll+0x231a2>) modid:4
+# 3 KERNELBASE.dll!IsValidLocale  (0x74e543c5 <KERNELBASE.dll+0x243c5>) modid:4
+# 4 msvcrt.dll!__get_qualified_locale (0x75276bc6 <msvcrt.dll+0x16bc6>) modid:5
+# 5 msvcrt.dll!_expandlocale (0x75276a88 <msvcrt.dll+0x16a88>) modid:5
+# 6 msvcrt.dll!_expandlocale (0x75275f77 <msvcrt.dll+0x15f77>) modid:5
+# 7 msvcrt.dll!_expandlocale (0x75275255 <msvcrt.dll+0x15255>) modid:5
+# 8 msvcrt.dll!setlocale  (0x75275300 <msvcrt.dll+0x15300>) modid:5
+# 9 __mingw_dirname  [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x00402ec4 <00_c_readbuf.exe+0x2ec4>) modid:1
+#10 glob_match       [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x00402835 <00_c_readbuf.exe+0x2835>) modid:1
+#11 __mingw_glob     [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x00402dd4 <00_c_readbuf.exe+0x2dd4>) modid:1
+#12 _setargv         [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x004018c7 <00_c_readbuf.exe+0x18c7>) modid:1
+#13 __mingw_CRTStartup (0x004011ca <00_c_readbuf.exe+0x11ca>) modid:1
+#14 mainCRTStartup   (0x004012b5 <00_c_readbuf.exe+0x12b5>) modid:1
+#15 ntdll.dll!RtlInitializeExceptionChain (0x77769882 <ntdll.dll+0x39882>) modid:7
+#16 ntdll.dll!RtlInitializeExceptionChain (0x77769855 <ntdll.dll+0x39855>) modid:7
+Note: @0:00:00.573 in thread 7876
+	error end
+
+Potential Error #5: HANDLE LEAK: KERNEL handle 0x00000080 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey
+# 1 KERNELBASE.dll!OpenRegKey     (0x74e64047 <KERNELBASE.dll+0x34047>) modid:4
+# 2 KERNELBASE.dll!FindNLSString  (0x74e53141 <KERNELBASE.dll+0x23141>) modid:4
+# 3 KERNELBASE.dll!IsValidLocale  (0x74e543ab <KERNELBASE.dll+0x243ab>) modid:4
+# 4 msvcrt.dll!__get_qualified_locale (0x75276bc6 <msvcrt.dll+0x16bc6>) modid:5
+# 5 msvcrt.dll!_expandlocale (0x75276a88 <msvcrt.dll+0x16a88>) modid:5
+# 6 msvcrt.dll!_expandlocale (0x75275f77 <msvcrt.dll+0x15f77>) modid:5
+# 7 msvcrt.dll!_expandlocale (0x75275255 <msvcrt.dll+0x15255>) modid:5
+# 8 msvcrt.dll!setlocale  (0x75275300 <msvcrt.dll+0x15300>) modid:5
+# 9 __mingw_dirname  [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x00402ec4 <00_c_readbuf.exe+0x2ec4>) modid:1
+#10 glob_match       [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x00402835 <00_c_readbuf.exe+0x2835>) modid:1
+#11 __mingw_glob     [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x00402dd4 <00_c_readbuf.exe+0x2dd4>) modid:1
+#12 _setargv         [C:/Users/achemichev/Dropbox/Var/Codeeval/00_c_readbuf/main.c:112] (0x004018c7 <00_c_readbuf.exe+0x18c7>) modid:1
+#13 __mingw_CRTStartup (0x004011ca <00_c_readbuf.exe+0x11ca>) modid:1
+#14 mainCRTStartup   (0x004012b5 <00_c_readbuf.exe+0x12b5>) modid:1
+#15 ntdll.dll!RtlInitializeExceptionChain (0x77769882 <ntdll.dll+0x39882>) modid:7
+#16 ntdll.dll!RtlInitializeExceptionChain (0x77769855 <ntdll.dll+0x39855>) modid:7
+Note: @0:00:00.574 in thread 7876
+	error end
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+	     1x: default i#1324 mingw runtime
+	     6x (leaked     138 bytes): default i#599 mingw un-freed alloc A
+	     5x (leaked    4366 bytes): default i#599 MSCRT un-freed alloc C
+	     1x (leaked      32 bytes): default i#599 MSCRT un-freed alloc A
+
+NO ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+      0 unique,     0 total,      0 byte(s) of still-reachable allocation(s)
+ERRORS IGNORED:
+      3 potential error(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\00_c_readbuf\drmem\DrMemory-00_c_readbuf.exe.6448.000\potential_errors.txt)
+      2 potential leak(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\00_c_readbuf\drmem\DrMemory-00_c_readbuf.exe.6448.000\potential_errors.txt)
+     68 ignored assumed-innocuous system leak(s)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\00_c_readbuf\drmem\DrMemory-00_c_readbuf.exe.6448.000\results.txt
+
+DUPLICATE POTENTIAL ERROR COUNTS:
+
+NO POTENTIAL ERRORS FOUND:
+      0 unique,     0 total potential unaddressable access(es)
+      0 unique,     0 total potential uninitialized access(es)
+      0 unique,     0 total potential invalid heap argument(s)
+      0 unique,     0 total potential GDI usage error(s)
+      3 unique,     3 total potential handle leak(s)
+      0 unique,     0 total potential warning(s)
+      0 unique,     0 total,      0 byte(s) of potential leak(s)
+      0 unique,     0 total,      0 byte(s) of potential possible leak(s)
+      2 unique,     2 total,     80 byte(s) of potential still-reachable allocation(s)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\00_c_readbuf\drmem\DrMemory-00_c_readbuf.exe.6448.000\potential_errors.txt
+Exiting @0:00:00.587 in thread 7876
+LOG END

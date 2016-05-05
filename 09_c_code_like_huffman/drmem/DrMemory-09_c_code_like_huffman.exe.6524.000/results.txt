@@ -1,0 +1,42 @@
+Dr. Memory version 1.9.0 build 4 built on Oct  2 2015 13:13:14
+Dr. Memory results for pid 6524: "09_c_code_like_huffman.exe"
+Application cmdline: "C:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\bin\09_c_code_like_huffman.exe test_input.txt"
+Recorded 116 suppression(s) from default c:\Program Files (x86)\Dr. Memory\bin\suppress-default.txt
+
+Error #1: LEAK 4 direct bytes 0x00d03c50-0x00d03c54 + 0 indirect bytes
+# 0 replace_malloc               [d:\drmemory_package\common\alloc_replace.c:2537]
+# 1 init_tree                    [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:30]
+# 2 huffman_entry                [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:168]
+# 3 main                         [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:22]
+
+Error #2: LEAK 4 direct bytes 0x00d03d70-0x00d03d74 + 0 indirect bytes
+# 0 replace_malloc               [d:\drmemory_package\common\alloc_replace.c:2537]
+# 1 build_tree                   [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:73]
+# 2 huffman_entry                [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:169]
+# 3 main                         [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:22]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   1:     11
+	Error #   2:      9
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      2 unique,    20 total,    155 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+      0 unique,     0 total,      0 byte(s) of still-reachable allocation(s)
+ERRORS IGNORED:
+      3 potential error(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.6524.000\potential_errors.txt)
+      2 potential leak(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.6524.000\potential_errors.txt)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.6524.000\results.txt

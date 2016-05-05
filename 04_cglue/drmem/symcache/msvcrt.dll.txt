@@ -1,0 +1,87 @@
+Dr. Memory symbol cache version 13
+      1627,690688,2139567507877855232,2431457058726739969,691974,1324021538,704512
+0
+memcmp,0x17975
+strcspn,0x1d099
+memmove,0x9e5a
+malloc,0x9cee
+mallopt,0x0
+strcpy,0x18d6e
+strspn,0x2869c
+wcsstr,0xbf71
+stpcpy,0x0
+wmemset,0x0
+mallinfo,0x0
+memchr,0x1e134
+cfree,0x0
+wcscpy,0x1d4f8
+strstr,0xde4a
+memset,0x9790
+_CrtDbgReportWV,0x157db
+_CrtDbgReportV,0x157db
+_CrtDbgReportW,0x157db
+_CrtDbgReport,0x157db
+calloc,0xc456
+_CrtSetDbgFlag,0x157db
+strrchr,0xdbae
+strncmp,0xb443
+strncpy,0x108a9
+strncat,0x30909
+strcat,0x18d75
+wcslen,0x1d335
+malloc_get_state,0x0
+malloc_set_state,0x0
+Concurrency::details::Security::EncodePointer,0x0
+wcsncmp,0xb05e
+wcsrchr,0xa73f
+wmemcpy,0x0
+wmemchr,0x0
+wmemcmp,0x0
+operator delete[] nothrow,0x0
+_CrtIsValidHeapPointer,0x2aa86
+operator delete[],0xb0f3
+strlen,0x143d3
+wcscmp,0x1d3b7
+strchr,0xdbeb
+memcpy,0x9910
+strcmp,0x18b11
+realloc,0xb10d
+strnlen,0x1e5c2
+wcschr,0xaa61
+_msize,0xf43b
+_free_dbg_impl,0x0
+operator new,0xb0c9
+,0x659e2
+_calloc_dbg_impl,0x0
+_malloc_dbg_impl,0x0
+_nh_malloc_dbg,0x0
+_msize_dbg,0x0
+operator delete,0xb0b9
+std::_DebugHeapDelete<>,0x0
+free_impl,0x0
+operator delete nothrow,0x0
+_calloc_dbg,0x65a4f
+_malloc_dbg,0x65a25
+_calloc_impl,0x0
+_free_dbg,0x65a3a
+_realloc_dbg_impl,0x0
+crtDbgFlag,0x157db
+calloc_impl,0x0
+operator new nothrow,0x0
+free,0x9894
+_CrtDbgBreak,0xae64
+__DrMemory_post_call,0xf600
+_realloc_dbg,0x659f7
+malloc_usable_size,0x0
+malloc_impl,0x0
+malloc_trim,0x0
+independent_calloc,0x0
+sbrk,0x0
+strncasecmp,0x0
+independent_comalloc,0x0
+operator new[] nothrow,0x0
+operator new[],0xb100
+,0x659e2
+malloc_stats,0x0
+realloc_impl,0x0
+strcasecmp,0x0

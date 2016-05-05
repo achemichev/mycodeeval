@@ -1,0 +1,6 @@
+|evil pl|vil pla|il plan|
+|secr|ecre|cret|
+|abc|bcd|cda|dab|abc|bck|ckj|
+|abc|bcd|cdb|dbc|bcd|
+|abc|bcd|cda|dab|
+|abc|bcd|cdb|dbq|bqb|qbc|bcd|

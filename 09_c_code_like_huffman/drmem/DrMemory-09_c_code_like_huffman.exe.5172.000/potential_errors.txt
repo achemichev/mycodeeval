@@ -1,0 +1,143 @@
+Dr. Memory version 1.9.0 build 4 built on Oct  2 2015 13:13:14
+Dr. Memory errors that are likely to be false positives, for pid 5172: "09_c_code_like_huffman.exe"
+These errors matched the blacklist 'C:\Windows*.d??' for 4 frames.
+Run with -lib_blacklist_frames 0 to treat these as regular errors.
+If these are all false positives and your focus is unaddressable errors, consider running with -light to skip all uninitialized reads and leaks for higher performance.
+
+Potential Error #1: REACHABLE LEAK 48 direct bytes 0x008d0558-0x008d0588 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap               [d:\drmemory_package\common\alloc_replace.c:3680]
+# 1 KERNELBASE.dll!CheckTokenMembership  +0xb8c    (0x74e4f2c2 <KERNELBASE.dll+0x1f2c2>)
+# 2 KERNELBASE.dll!InternalLcidToName    +0xb51    (0x74e50221 <KERNELBASE.dll+0x20221>)
+# 3 KERNELBASE.dll!GetCalendar           +0x623    (0x74e50945 <KERNELBASE.dll+0x20945>)
+# 4 KERNELBASE.dll!GetNamedLocaleHashNode+0x55     (0x74e50af3 <KERNELBASE.dll+0x20af3>)
+# 5 KERNELBASE.dll!OpenRegKey            +0xa2d    (0x74e64941 <KERNELBASE.dll+0x34941>)
+# 6 KERNELBASE.dll!OpenRegKey            +0xc44    (0x74e64b58 <KERNELBASE.dll+0x34b58>)
+# 7 KERNELBASE.dll!GetUserDefaultLCID    +0x4      (0x74e5381e <KERNELBASE.dll+0x2381e>)
+# 8 msvcrt.dll!crtDbgFlag                +0x1384   (0x75276b60 <msvcrt.dll+0x16b60>)
+# 9 msvcrt.dll!crtDbgFlag                +0x12ac   (0x75276a88 <msvcrt.dll+0x16a88>)
+#10 msvcrt.dll!crtDbgFlag                +0x79b    (0x75275f77 <msvcrt.dll+0x15f77>)
+#11 msvcrt.dll!_wgetmainargs             +0x3d8    (0x75275255 <msvcrt.dll+0x15255>)
+
+Potential Error #2: REACHABLE LEAK 32 direct bytes 0x008d1cd8-0x008d1cf8 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap                   [d:\drmemory_package\common\alloc_replace.c:3680]
+# 1 ntdll.dll!RtlRunOnceBeginInitialize      +0x8d     (0x77768129 <ntdll.dll+0x38129>)
+# 2 KERNELBASE.dll!InitializeCriticalSectionEx+0x14     (0x74e40d16 <KERNELBASE.dll+0x10d16>)
+# 3 msvcrt.dll!wcsnicmp_l                    +0xa8     (0x75272901 <msvcrt.dll+0x12901>)
+# 4 msvcrt.dll!open_osfhandle                +0x16e    (0x75272b41 <msvcrt.dll+0x12b41>)
+# 5 msvcrt.dll!cexit                         +0xb0     (0x75273885 <msvcrt.dll+0x13885>)
+# 6 msvcrt.dll!clearerr_s                    +0x72e    (0x7527a2e4 <msvcrt.dll+0x1a2e4>)
+# 7 msvcrt.dll!sopen_s                       +0x78     (0x7527a789 <msvcrt.dll+0x1a789>)
+# 8 msvcrt.dll!sopen_s                       +0x1a     (0x7527a72b <msvcrt.dll+0x1a72b>)
+# 9 msvcrt.dll!remove                        +0x136    (0x7527a628 <msvcrt.dll+0x1a628>)
+#10 msvcrt.dll!fsopen                        +0x69     (0x7527a6c1 <msvcrt.dll+0x1a6c1>)
+#11 msvcrt.dll!fopen                         +0x11     (0x7527b2d6 <msvcrt.dll+0x1b2d6>)
+
+Potential Error #3: REACHABLE LEAK 32 direct bytes 0x008d1d18-0x008d1d38 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap                   [d:\drmemory_package\common\alloc_replace.c:3680]
+# 1 ntdll.dll!RtlRunOnceBeginInitialize      +0x8d     (0x77768129 <ntdll.dll+0x38129>)
+# 2 KERNELBASE.dll!InitializeCriticalSectionEx+0x14     (0x74e40d16 <KERNELBASE.dll+0x10d16>)
+# 3 msvcrt.dll!wcsnicmp_l                    +0xa8     (0x75272901 <msvcrt.dll+0x12901>)
+# 4 msvcrt.dll!open_osfhandle                +0x1be    (0x75272b91 <msvcrt.dll+0x12b91>)
+# 5 msvcrt.dll!clearerr_s                    +0x72e    (0x7527a2e4 <msvcrt.dll+0x1a2e4>)
+# 6 msvcrt.dll!sopen_s                       +0x78     (0x7527a789 <msvcrt.dll+0x1a789>)
+# 7 msvcrt.dll!sopen_s                       +0x1a     (0x7527a72b <msvcrt.dll+0x1a72b>)
+# 8 msvcrt.dll!remove                        +0x136    (0x7527a628 <msvcrt.dll+0x1a628>)
+# 9 msvcrt.dll!fsopen                        +0x69     (0x7527a6c1 <msvcrt.dll+0x1a6c1>)
+#10 msvcrt.dll!fopen                         +0x11     (0x7527b2d6 <msvcrt.dll+0x1b2d6>)
+#11 main                                      [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:16]
+
+Potential Error #4: REACHABLE LEAK 24 direct bytes 0x00cd1b30-0x00cd1b48 + 0 indirect bytes
+# 0 replace_malloc               [d:\drmemory_package\common\alloc_replace.c:2537]
+# 1 msvcrt.dll!strcpy_s         +0x5e     (0x7526f5d3 <msvcrt.dll+0xf5d3>)
+# 2 msvcrt.dll!open_osfhandle   +0x145    (0x75272b18 <msvcrt.dll+0x12b18>)
+# 3 msvcrt.dll!get_fmode        +0x98     (0x75273c7d <msvcrt.dll+0x13c7d>)
+# 4 msvcrt.dll!fsopen           +0x48     (0x7527a6a0 <msvcrt.dll+0x1a6a0>)
+# 5 msvcrt.dll!fopen            +0x11     (0x7527b2d6 <msvcrt.dll+0x1b2d6>)
+# 6 main                         [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:16]
+
+Potential Error #5: REACHABLE LEAK 24 direct bytes 0x00cd1b68-0x00cd1b80 + 0 indirect bytes
+# 0 replace_malloc               [d:\drmemory_package\common\alloc_replace.c:2537]
+# 1 msvcrt.dll!strcpy_s         +0x5e     (0x7526f5d3 <msvcrt.dll+0xf5d3>)
+# 2 msvcrt.dll!open_osfhandle   +0x145    (0x75272b18 <msvcrt.dll+0x12b18>)
+# 3 msvcrt.dll!cexit            +0xb0     (0x75273885 <msvcrt.dll+0x13885>)
+# 4 msvcrt.dll!clearerr_s       +0x72e    (0x7527a2e4 <msvcrt.dll+0x1a2e4>)
+# 5 msvcrt.dll!sopen_s          +0x78     (0x7527a789 <msvcrt.dll+0x1a789>)
+# 6 msvcrt.dll!sopen_s          +0x1a     (0x7527a72b <msvcrt.dll+0x1a72b>)
+# 7 msvcrt.dll!remove           +0x136    (0x7527a628 <msvcrt.dll+0x1a628>)
+# 8 msvcrt.dll!fsopen           +0x69     (0x7527a6c1 <msvcrt.dll+0x1a6c1>)
+# 9 msvcrt.dll!fopen            +0x11     (0x7527b2d6 <msvcrt.dll+0x1b2d6>)
+#10 main                         [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:16]
+
+Potential Error #6: HANDLE LEAK: KERNEL handle 0x00000074 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey      
+# 1 KERNELBASE.dll!OpenRegKey                +0x133    (0x74e64047 <KERNELBASE.dll+0x34047>)
+# 2 KERNELBASE.dll!FindNLSString             +0x258    (0x74e53141 <KERNELBASE.dll+0x23141>)
+# 3 KERNELBASE.dll!IsValidLocale             +0x135    (0x74e543ab <KERNELBASE.dll+0x243ab>)
+# 4 msvcrt.dll!crtDbgFlag                    +0x13ea   (0x75276bc6 <msvcrt.dll+0x16bc6>)
+# 5 msvcrt.dll!crtDbgFlag                    +0x12ac   (0x75276a88 <msvcrt.dll+0x16a88>)
+# 6 msvcrt.dll!crtDbgFlag                    +0x79b    (0x75275f77 <msvcrt.dll+0x15f77>)
+# 7 msvcrt.dll!_wgetmainargs                 +0x3d8    (0x75275255 <msvcrt.dll+0x15255>)
+# 8 msvcrt.dll!setlocale                     +0x79     (0x75275300 <msvcrt.dll+0x15300>)
+# 9 __mingw_dirname                           [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#10 glob_match                                [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#11 __mingw_glob                              [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#12 _setargv                                  [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#13 __mingw_CRTStartup        
+#14 mainCRTStartup            
+#15 ntdll.dll!RtlInitializeExceptionChain    +0x62     (0x77769882 <ntdll.dll+0x39882>)
+#16 ntdll.dll!RtlInitializeExceptionChain    +0x35     (0x77769855 <ntdll.dll+0x39855>)
+Note: @0:00:01.265 in thread 5804
+
+Potential Error #7: HANDLE LEAK: KERNEL handle 0x00000078 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey      
+# 1 KERNELBASE.dll!OpenRegKey                +0x133    (0x74e64047 <KERNELBASE.dll+0x34047>)
+# 2 KERNELBASE.dll!CheckTokenMembership      +0xacb    (0x74e4f201 <KERNELBASE.dll+0x1f201>)
+# 3 KERNELBASE.dll!IsValidLocale             +0x142    (0x74e543b8 <KERNELBASE.dll+0x243b8>)
+# 4 msvcrt.dll!crtDbgFlag                    +0x13ea   (0x75276bc6 <msvcrt.dll+0x16bc6>)
+# 5 msvcrt.dll!crtDbgFlag                    +0x12ac   (0x75276a88 <msvcrt.dll+0x16a88>)
+# 6 msvcrt.dll!crtDbgFlag                    +0x79b    (0x75275f77 <msvcrt.dll+0x15f77>)
+# 7 msvcrt.dll!_wgetmainargs                 +0x3d8    (0x75275255 <msvcrt.dll+0x15255>)
+# 8 msvcrt.dll!setlocale                     +0x79     (0x75275300 <msvcrt.dll+0x15300>)
+# 9 __mingw_dirname                           [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#10 glob_match                                [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#11 __mingw_glob                              [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#12 _setargv                                  [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#13 __mingw_CRTStartup        
+#14 mainCRTStartup            
+#15 ntdll.dll!RtlInitializeExceptionChain    +0x62     (0x77769882 <ntdll.dll+0x39882>)
+#16 ntdll.dll!RtlInitializeExceptionChain    +0x35     (0x77769855 <ntdll.dll+0x39855>)
+Note: @0:00:01.265 in thread 5804
+
+Potential Error #8: HANDLE LEAK: KERNEL handle 0x00000080 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey      
+# 1 KERNELBASE.dll!OpenRegKey                +0x133    (0x74e64047 <KERNELBASE.dll+0x34047>)
+# 2 KERNELBASE.dll!FindNLSString             +0x2b9    (0x74e531a2 <KERNELBASE.dll+0x231a2>)
+# 3 KERNELBASE.dll!IsValidLocale             +0x14f    (0x74e543c5 <KERNELBASE.dll+0x243c5>)
+# 4 msvcrt.dll!crtDbgFlag                    +0x13ea   (0x75276bc6 <msvcrt.dll+0x16bc6>)
+# 5 msvcrt.dll!crtDbgFlag                    +0x12ac   (0x75276a88 <msvcrt.dll+0x16a88>)
+# 6 msvcrt.dll!crtDbgFlag                    +0x79b    (0x75275f77 <msvcrt.dll+0x15f77>)
+# 7 msvcrt.dll!_wgetmainargs                 +0x3d8    (0x75275255 <msvcrt.dll+0x15255>)
+# 8 msvcrt.dll!setlocale                     +0x79     (0x75275300 <msvcrt.dll+0x15300>)
+# 9 __mingw_dirname                           [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#10 glob_match                                [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#11 __mingw_glob                              [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#12 _setargv                                  [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:186]
+#13 __mingw_CRTStartup        
+#14 mainCRTStartup            
+#15 ntdll.dll!RtlInitializeExceptionChain    +0x62     (0x77769882 <ntdll.dll+0x39882>)
+#16 ntdll.dll!RtlInitializeExceptionChain    +0x35     (0x77769855 <ntdll.dll+0x39855>)
+Note: @0:00:01.265 in thread 5804
+
+DUPLICATE POTENTIAL ERROR COUNTS:
+
+POTENTIAL ERRORS FOUND:
+      0 unique,     0 total potential unaddressable access(es)
+      0 unique,     0 total potential uninitialized access(es)
+      0 unique,     0 total potential invalid heap argument(s)
+      0 unique,     0 total potential GDI usage error(s)
+      3 unique,     3 total potential handle leak(s)
+      0 unique,     0 total potential warning(s)
+      0 unique,     0 total,      0 byte(s) of potential leak(s)
+      0 unique,     0 total,      0 byte(s) of potential possible leak(s)
+      5 unique,     5 total,    160 byte(s) of potential still-reachable allocation(s)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.5172.000\potential_errors.txt

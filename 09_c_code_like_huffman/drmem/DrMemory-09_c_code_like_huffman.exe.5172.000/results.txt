@@ -1,0 +1,36 @@
+Dr. Memory version 1.9.0 build 4 built on Oct  2 2015 13:13:14
+Dr. Memory results for pid 5172: "09_c_code_like_huffman.exe"
+Application cmdline: "C:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\bin\09_c_code_like_huffman.exe test_input.txt"
+Recorded 116 suppression(s) from default c:\Program Files (x86)\Dr. Memory\bin\suppress-default.txt
+
+Error #1: REACHABLE LEAK 4096 direct bytes 0x00cd2bc0-0x00cd3bc0 + 0 indirect bytes
+# 0 replace_malloc               [d:\drmemory_package\common\alloc_replace.c:2537]
+# 1 msvcrt.dll!strcpy_s         +0x5e     (0x7526f5d3 <msvcrt.dll+0xf5d3>)
+# 2 msvcrt.dll!wprintf          +0x142    (0x75285f26 <msvcrt.dll+0x25f26>)
+# 3 msvcrt.dll!printf           +0x35     (0x7527c5ef <msvcrt.dll+0x1c5ef>)
+# 4 huffman_entry                [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/huffman.c:157]
+# 5 main                         [C:/Users/achemichev/Dropbox/Var/Codeeval/09_c_code_like_huffman/main.c:22]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+      1 unique,     1 total,   4096 byte(s) of still-reachable allocation(s)
+ERRORS IGNORED:
+      3 potential error(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.5172.000\potential_errors.txt)
+      5 potential leak(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.5172.000\potential_errors.txt)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem\DrMemory-09_c_code_like_huffman.exe.5172.000\results.txt

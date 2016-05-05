@@ -1,0 +1,34 @@
+# File for suppressing errors found in pid 6524: "09_c_code_like_huffman.exe"
+
+# Suppression for Error #1
+LEAK
+name=Error #1 (update to meaningful name)
+drmemorylib.dll!replace_malloc
+09_c_code_like_huffman.exe!init_tree
+09_c_code_like_huffman.exe!huffman_entry
+09_c_code_like_huffman.exe!main
+
+## Mod+offs-style suppression for Error #1:
+LEAK
+name=Error #1 (update to meaningful name)
+<drmemorylib.dll+0x33d90>
+<09_c_code_like_huffman.exe+0x176c>
+<09_c_code_like_huffman.exe+0x1dfb>
+<09_c_code_like_huffman.exe+0x1467>
+
+# Suppression for Error #2
+LEAK
+name=Error #2 (update to meaningful name)
+drmemorylib.dll!replace_malloc
+09_c_code_like_huffman.exe!build_tree
+09_c_code_like_huffman.exe!huffman_entry
+09_c_code_like_huffman.exe!main
+
+## Mod+offs-style suppression for Error #2:
+LEAK
+name=Error #2 (update to meaningful name)
+<drmemorylib.dll+0x33d90>
+<09_c_code_like_huffman.exe+0x195c>
+<09_c_code_like_huffman.exe+0x1e0e>
+<09_c_code_like_huffman.exe+0x1467>
+

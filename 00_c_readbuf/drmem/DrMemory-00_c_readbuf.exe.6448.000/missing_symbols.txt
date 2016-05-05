@@ -1,0 +1,2 @@
+C:\Windows\SysWOW64\ntdll.dll
+C:\Windows\syswow64\KERNELBASE.dll

@@ -1,0 +1,22 @@
+# File for suppressing errors found in pid 4996: "06_csortcols.exe"
+
+# Suppression for Error #1
+REACHABLE LEAK
+name=Error #1 (update to meaningful name)
+drmemorylib.dll!replace_malloc
+msvcrt.dll!strcpy_s
+msvcrt.dll!wprintf
+msvcrt.dll!printf
+06_csortcols.exe!sortcols
+06_csortcols.exe!main
+
+## Mod+offs-style suppression for Error #1:
+REACHABLE LEAK
+name=Error #1 (update to meaningful name)
+<drmemorylib.dll+0x33d90>
+<msvcrt.dll+0xf5d3>
+<msvcrt.dll+0x25f26>
+<msvcrt.dll+0x1c5ef>
+<06_csortcols.exe+0x1684>
+<06_csortcols.exe+0x1760>
+

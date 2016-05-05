@@ -1,0 +1,2 @@
+# File for suppressing errors found in pid 8936: "14_game_of_life.exe"
+

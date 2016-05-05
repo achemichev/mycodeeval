@@ -1,0 +1,4 @@
+C:\Windows\syswow64\kernel32.dll
+C:\Windows\syswow64\KERNELBASE.dll
+C:\Windows\syswow64\msvcrt.dll
+C:\Windows\SysWOW64\ntdll.dll

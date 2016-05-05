@@ -1,0 +1,2 @@
+# File for suppressing errors found in pid 1152: "08_c_meet_comb_sort.exe"
+

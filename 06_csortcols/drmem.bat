@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\Dr. Memory\bin\drmemory.exe" -show_reachable -logdir c:\Users\achemichev\Dropbox\Var\Codeeval\06_csortcols\drmem -- C:\Users\achemichev\Dropbox\Var\Codeeval\06_csortcols\Debug\06_csortcols.exe test_input.txt

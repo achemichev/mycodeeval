@@ -1,0 +1,165 @@
+Dr. Memory version 1.9.0 build 4 built on Oct  2 2015 13:13:14
+start time: 3639298:10:03.573 == 10:10:03.573 03/03/2016
+Recorded 116 suppression(s) from default c:\Program Files (x86)\Dr. Memory\bin\suppress-default.txt
+new thread #0 id=7316
+
+module load event: "15_fizz_buzz.exe" 0x00400000-0x00416000 modid: 1 C:\Users\achemichev\Dropbox\Var\Codeeval\15_fizz_buzz\bin\15_fizz_buzz.exe
+
+module load event: "dynamorio.dll" 0x5f710000-0x5f86a000 modid: 2 c:\Program Files (x86)\Dr. Memory\dynamorio\lib32\release\dynamorio.dll
+
+module load event: "drmemorylib.dll" 0x73800000-0x739fd000 modid: 3 c:\Program Files (x86)\Dr. Memory\bin\release\drmemorylib.dll
+
+module load event: "KERNEL32.dll" 0x75870000-0x75980000 modid: 4 C:\Windows\syswow64\kernel32.dll
+
+module load event: "KERNELBASE.dll" 0x75d40000-0x75d87000 modid: 5 C:\Windows\syswow64\KERNELBASE.dll
+
+module load event: "msvcrt.dll" 0x76330000-0x763dc000 modid: 6 C:\Windows\syswow64\msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new == new[] => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+WARNING: new/delete has no local wrapper => disabling mismatch detection for msvcrt.dll
+
+module load event: "ntdll.dll" 0x772a0000-0x77420000 modid: 7 C:\Windows\SysWOW64\ntdll.dll
+WARNING: unable to load symbols for C:\Windows\SysWOW64\ntdll.dll
+WARNING: unhandled system calls found
+WARNING: unable to load symbols for C:\Windows\syswow64\KERNELBASE.dll
+
+Potential Error #1: REACHABLE LEAK 48 direct bytes 0x008e0558-0x008e0588 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap [d:\drmemory_package\common\alloc_replace.c:3680] (0x73832750 <drmemorylib.dll+0x32750>) modid:3
+# 1 KERNELBASE.dll!CheckTokenMembership (0x75d5f2c2 <KERNELBASE.dll+0x1f2c2>) modid:5
+# 2 KERNELBASE.dll!InternalLcidToName (0x75d60221 <KERNELBASE.dll+0x20221>) modid:5
+# 3 KERNELBASE.dll!GetCalendar    (0x75d60945 <KERNELBASE.dll+0x20945>) modid:5
+# 4 KERNELBASE.dll!GetNamedLocaleHashNode (0x75d60af3 <KERNELBASE.dll+0x20af3>) modid:5
+# 5 KERNELBASE.dll!OpenRegKey     (0x75d74941 <KERNELBASE.dll+0x34941>) modid:5
+# 6 KERNELBASE.dll!OpenRegKey     (0x75d74b58 <KERNELBASE.dll+0x34b58>) modid:5
+# 7 KERNELBASE.dll!GetUserDefaultLCID (0x75d6381e <KERNELBASE.dll+0x2381e>) modid:5
+# 8 msvcrt.dll!__get_qualified_locale (0x76346b60 <msvcrt.dll+0x16b60>) modid:6
+# 9 msvcrt.dll!_expandlocale (0x76346a88 <msvcrt.dll+0x16a88>) modid:6
+#10 msvcrt.dll!_expandlocale (0x76345f77 <msvcrt.dll+0x15f77>) modid:6
+#11 msvcrt.dll!_expandlocale (0x76345255 <msvcrt.dll+0x15255>) modid:6
+	error end
+
+Potential Error #2: REACHABLE LEAK 32 direct bytes 0x008e1ce8-0x008e1d08 + 0 indirect bytes
+# 0 replace_RtlAllocateHeap [d:\drmemory_package\common\alloc_replace.c:3680] (0x73832750 <drmemorylib.dll+0x32750>) modid:3
+# 1 ntdll.dll!RtlRunOnceBeginInitialize (0x772d8129 <ntdll.dll+0x38129>) modid:7
+# 2 KERNELBASE.dll!InitializeCriticalSectionEx (0x75d50d16 <KERNELBASE.dll+0x10d16>) modid:5
+# 3 msvcrt.dll!__crtInitCritSecAndSpinCount (0x76342901 <msvcrt.dll+0x12901>) modid:6
+# 4 msvcrt.dll!_alloc_osfhnd (0x76342b91 <msvcrt.dll+0x12b91>) modid:6
+# 5 msvcrt.dll!_mktemp_s  (0x7634a2e4 <msvcrt.dll+0x1a2e4>) modid:6
+# 6 msvcrt.dll!_sopen_helper (0x7634a789 <msvcrt.dll+0x1a789>) modid:6
+# 7 msvcrt.dll!_sopen_s   (0x7634a72b <msvcrt.dll+0x1a72b>) modid:6
+# 8 msvcrt.dll!_openfile  (0x7634a628 <msvcrt.dll+0x1a628>) modid:6
+# 9 msvcrt.dll!_fsopen    (0x7634a6c1 <msvcrt.dll+0x1a6c1>) modid:6
+#10 msvcrt.dll!fopen      (0x7634b2d6 <msvcrt.dll+0x1b2d6>) modid:6
+#11 main             [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/main.c:22] (0x00401421 <15_fizz_buzz.exe+0x1421>) modid:1
+	error end
+
+NEW THREAD: main thread 7316
+
+
+Potential Error #3: HANDLE LEAK: KERNEL handle 0x00000074 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey
+# 1 KERNELBASE.dll!OpenRegKey     (0x75d74047 <KERNELBASE.dll+0x34047>) modid:5
+# 2 KERNELBASE.dll!CheckTokenMembership (0x75d5f201 <KERNELBASE.dll+0x1f201>) modid:5
+# 3 KERNELBASE.dll!IsValidLocale  (0x75d643b8 <KERNELBASE.dll+0x243b8>) modid:5
+# 4 msvcrt.dll!__get_qualified_locale (0x76346bc6 <msvcrt.dll+0x16bc6>) modid:6
+# 5 msvcrt.dll!_expandlocale (0x76346a88 <msvcrt.dll+0x16a88>) modid:6
+# 6 msvcrt.dll!_expandlocale (0x76345f77 <msvcrt.dll+0x15f77>) modid:6
+# 7 msvcrt.dll!_expandlocale (0x76345255 <msvcrt.dll+0x15255>) modid:6
+# 8 msvcrt.dll!setlocale  (0x76345300 <msvcrt.dll+0x15300>) modid:6
+# 9 __mingw_dirname  [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x004031c4 <15_fizz_buzz.exe+0x31c4>) modid:1
+#10 glob_match       [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x00402b35 <15_fizz_buzz.exe+0x2b35>) modid:1
+#11 __mingw_glob     [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x004030d4 <15_fizz_buzz.exe+0x30d4>) modid:1
+#12 _setargv         [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x00401bc7 <15_fizz_buzz.exe+0x1bc7>) modid:1
+#13 __mingw_CRTStartup (0x004011ca <15_fizz_buzz.exe+0x11ca>) modid:1
+#14 mainCRTStartup   (0x004012b5 <15_fizz_buzz.exe+0x12b5>) modid:1
+#15 ntdll.dll!RtlInitializeExceptionChain (0x772d9882 <ntdll.dll+0x39882>) modid:7
+#16 ntdll.dll!RtlInitializeExceptionChain (0x772d9855 <ntdll.dll+0x39855>) modid:7
+Note: @0:00:03.923 in thread 7316
+	error end
+
+Potential Error #4: HANDLE LEAK: KERNEL handle 0x00000078 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey
+# 1 KERNELBASE.dll!OpenRegKey     (0x75d74047 <KERNELBASE.dll+0x34047>) modid:5
+# 2 KERNELBASE.dll!FindNLSString  (0x75d631a2 <KERNELBASE.dll+0x231a2>) modid:5
+# 3 KERNELBASE.dll!IsValidLocale  (0x75d643c5 <KERNELBASE.dll+0x243c5>) modid:5
+# 4 msvcrt.dll!__get_qualified_locale (0x76346bc6 <msvcrt.dll+0x16bc6>) modid:6
+# 5 msvcrt.dll!_expandlocale (0x76346a88 <msvcrt.dll+0x16a88>) modid:6
+# 6 msvcrt.dll!_expandlocale (0x76345f77 <msvcrt.dll+0x15f77>) modid:6
+# 7 msvcrt.dll!_expandlocale (0x76345255 <msvcrt.dll+0x15255>) modid:6
+# 8 msvcrt.dll!setlocale  (0x76345300 <msvcrt.dll+0x15300>) modid:6
+# 9 __mingw_dirname  [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x004031c4 <15_fizz_buzz.exe+0x31c4>) modid:1
+#10 glob_match       [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x00402b35 <15_fizz_buzz.exe+0x2b35>) modid:1
+#11 __mingw_glob     [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x004030d4 <15_fizz_buzz.exe+0x30d4>) modid:1
+#12 _setargv         [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x00401bc7 <15_fizz_buzz.exe+0x1bc7>) modid:1
+#13 __mingw_CRTStartup (0x004011ca <15_fizz_buzz.exe+0x11ca>) modid:1
+#14 mainCRTStartup   (0x004012b5 <15_fizz_buzz.exe+0x12b5>) modid:1
+#15 ntdll.dll!RtlInitializeExceptionChain (0x772d9882 <ntdll.dll+0x39882>) modid:7
+#16 ntdll.dll!RtlInitializeExceptionChain (0x772d9855 <ntdll.dll+0x39855>) modid:7
+Note: @0:00:03.924 in thread 7316
+	error end
+
+Potential Error #5: HANDLE LEAK: KERNEL handle 0x00000080 and 0 similar handle(s) were opened but not closed:
+# 0 system call NtOpenKey
+# 1 KERNELBASE.dll!OpenRegKey     (0x75d74047 <KERNELBASE.dll+0x34047>) modid:5
+# 2 KERNELBASE.dll!FindNLSString  (0x75d63141 <KERNELBASE.dll+0x23141>) modid:5
+# 3 KERNELBASE.dll!IsValidLocale  (0x75d643ab <KERNELBASE.dll+0x243ab>) modid:5
+# 4 msvcrt.dll!__get_qualified_locale (0x76346bc6 <msvcrt.dll+0x16bc6>) modid:6
+# 5 msvcrt.dll!_expandlocale (0x76346a88 <msvcrt.dll+0x16a88>) modid:6
+# 6 msvcrt.dll!_expandlocale (0x76345f77 <msvcrt.dll+0x15f77>) modid:6
+# 7 msvcrt.dll!_expandlocale (0x76345255 <msvcrt.dll+0x15255>) modid:6
+# 8 msvcrt.dll!setlocale  (0x76345300 <msvcrt.dll+0x15300>) modid:6
+# 9 __mingw_dirname  [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x004031c4 <15_fizz_buzz.exe+0x31c4>) modid:1
+#10 glob_match       [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x00402b35 <15_fizz_buzz.exe+0x2b35>) modid:1
+#11 __mingw_glob     [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x004030d4 <15_fizz_buzz.exe+0x30d4>) modid:1
+#12 _setargv         [C:/Users/achemichev/Dropbox/Var/Codeeval/15_fizz_buzz/challenge.c:63] (0x00401bc7 <15_fizz_buzz.exe+0x1bc7>) modid:1
+#13 __mingw_CRTStartup (0x004011ca <15_fizz_buzz.exe+0x11ca>) modid:1
+#14 mainCRTStartup   (0x004012b5 <15_fizz_buzz.exe+0x12b5>) modid:1
+#15 ntdll.dll!RtlInitializeExceptionChain (0x772d9882 <ntdll.dll+0x39882>) modid:7
+#16 ntdll.dll!RtlInitializeExceptionChain (0x772d9855 <ntdll.dll+0x39855>) modid:7
+Note: @0:00:03.924 in thread 7316
+	error end
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+	     1x: default i#1324 mingw runtime
+	     6x (leaked     138 bytes): default i#599 mingw un-freed alloc A
+	     5x (leaked    4366 bytes): default i#599 MSCRT un-freed alloc C
+	     1x (leaked      32 bytes): default i#599 MSCRT un-freed alloc A
+
+NO ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+      0 unique,     0 total,      0 byte(s) of still-reachable allocation(s)
+ERRORS IGNORED:
+      3 potential error(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\15_fizz_buzz\drmem\DrMemory-15_fizz_buzz.exe.3172.000\potential_errors.txt)
+      2 potential leak(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\15_fizz_buzz\drmem\DrMemory-15_fizz_buzz.exe.3172.000\potential_errors.txt)
+     68 ignored assumed-innocuous system leak(s)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\15_fizz_buzz\drmem\DrMemory-15_fizz_buzz.exe.3172.000\results.txt
+
+DUPLICATE POTENTIAL ERROR COUNTS:
+
+NO POTENTIAL ERRORS FOUND:
+      0 unique,     0 total potential unaddressable access(es)
+      0 unique,     0 total potential uninitialized access(es)
+      0 unique,     0 total potential invalid heap argument(s)
+      0 unique,     0 total potential GDI usage error(s)
+      3 unique,     3 total potential handle leak(s)
+      0 unique,     0 total potential warning(s)
+      0 unique,     0 total,      0 byte(s) of potential leak(s)
+      0 unique,     0 total,      0 byte(s) of potential possible leak(s)
+      2 unique,     2 total,     80 byte(s) of potential still-reachable allocation(s)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\15_fizz_buzz\drmem\DrMemory-15_fizz_buzz.exe.3172.000\potential_errors.txt
+Exiting @0:00:03.950 in thread 7316
+LOG END

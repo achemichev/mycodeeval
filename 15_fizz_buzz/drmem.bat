@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\Dr. Memory\bin\drmemory.exe" -show_reachable -logdir c:\Users\achemichev\Dropbox\Var\Codeeval\15_fizz_buzz\drmem -- C:\Users\achemichev\Dropbox\Var\Codeeval\15_fizz_buzz\bin\15_fizz_buzz.exe test_input.txt

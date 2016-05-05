@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\Dr. Memory\bin\drmemory.exe" -show_reachable -logdir c:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\drmem -- C:\Users\achemichev\Dropbox\Var\Codeeval\09_c_code_like_huffman\bin\09_c_code_like_huffman.exe test_input.txt

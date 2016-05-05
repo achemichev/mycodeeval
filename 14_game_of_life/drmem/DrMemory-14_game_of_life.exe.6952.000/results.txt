@@ -1,0 +1,38 @@
+Dr. Memory version 1.9.0 build 4 built on Oct  2 2015 13:13:14
+Dr. Memory results for pid 6952: "14_game_of_life.exe"
+Application cmdline: "C:\Users\achemichev\Dropbox\Var\Codeeval\14_game_of_life\bin\14_game_of_life.exe test_input.txt"
+Recorded 116 suppression(s) from default c:\Program Files (x86)\Dr. Memory\bin\suppress-default.txt
+
+Error #1: REACHABLE LEAK 4096 direct bytes 0x00dd3610-0x00dd4610 + 0 indirect bytes
+# 0 replace_malloc                  [d:\drmemory_package\common\alloc_replace.c:2537]
+# 1 msvcrt.dll!strcpy_s            +0x5e     (0x7633f5d3 <msvcrt.dll+0xf5d3>)
+# 2 msvcrt.dll!wprintf             +0x142    (0x76355f26 <msvcrt.dll+0x25f26>)
+# 3 msvcrt.dll!puts                +0xf3     (0x763a8e20 <msvcrt.dll+0x78e20>)
+# 4 grid_output                     [C:/Users/achemichev/Dropbox/Var/Codeeval/14_game_of_life/main.c:101]
+# 5 thisproject_entry               [C:/Users/achemichev/Dropbox/Var/Codeeval/14_game_of_life/main.c:182]
+# 6 scan_to_eof                     [C:/Users/achemichev/Dropbox/Var/Codeeval/14_game_of_life/main.c:231]
+# 7 main                            [C:/Users/achemichev/Dropbox/Var/Codeeval/14_game_of_life/main.c:276]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+      1 unique,     1 total,   4096 byte(s) of still-reachable allocation(s)
+ERRORS IGNORED:
+      3 potential error(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\14_game_of_life\drmem\DrMemory-14_game_of_life.exe.6952.000\potential_errors.txt)
+      5 potential leak(s) (suspected false positives)
+         (details: c:\Users\achemichev\Dropbox\Var\Codeeval\14_game_of_life\drmem\DrMemory-14_game_of_life.exe.6952.000\potential_errors.txt)
+Details: c:\Users\achemichev\Dropbox\Var\Codeeval\14_game_of_life\drmem\DrMemory-14_game_of_life.exe.6952.000\results.txt
